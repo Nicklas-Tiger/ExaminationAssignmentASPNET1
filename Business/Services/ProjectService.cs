@@ -3,6 +3,7 @@ using Data.Entities;
 using Data.Repositories;
 using Domain.Extensions;
 using Domain.Models;
+using Business.Mapping;
 
 namespace Business.Services;
 
@@ -28,6 +29,29 @@ public class ProjectService(IProjectRepository projectRepository, IStatusService
 
         var projectEntity = formData.MapTo<ProjectEntity>();
 
+        if (formData.Image != null && formData.Image.Length > 0)
+        {
+        
+            var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/projects");
+            if (!Directory.Exists(uploadsFolder))
+                Directory.CreateDirectory(uploadsFolder);
+
+            var uniqueFileName = Guid.NewGuid().ToString() + Path.GetExtension(formData.Image.FileName);
+            var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+            using (var fileStream = new FileStream(filePath, FileMode.Create))
+                await formData.Image.CopyToAsync(fileStream);
+
+
+            projectEntity.Image = uniqueFileName;
+        }
+        else
+            projectEntity.Image = null; 
+
+
+
+
+
         var statusResult = await _statusService.GetStatusByIdAsync(1);
         var status = statusResult.Result;
 
@@ -51,7 +75,20 @@ public class ProjectService(IProjectRepository projectRepository, IStatusService
                 include => include.Status,
                 include => include.Client
             );
-        return new ProjectResult<IEnumerable<Project>> { Succeeded = response.Succeeded, StatusCode = response.StatusCode, Result = response.Result };
+        if (!response.Succeeded)
+            return new ProjectResult<IEnumerable<Project>> { Succeeded = response.Succeeded, StatusCode = response.StatusCode, Result = response.Result };
+
+        // Mappa ProjectEntity => Domain.Models.Project
+        var projectsDomain = response.Result; // extension-metod i Business
+
+        return new ProjectResult<IEnumerable<Project>>
+        {
+            Succeeded = true,
+            StatusCode = 200,
+            Result = projectsDomain
+        };
+
+
     }
 
     public async Task<ProjectResult<Project>> GetProjectAsync(string id)

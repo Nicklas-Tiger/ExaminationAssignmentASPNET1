@@ -2262,6 +2262,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
+          "Hubs": "1.0.0",
           "Microsoft.AspNetCore.Http.Features": "2.3.0"
         },
         "compile": {

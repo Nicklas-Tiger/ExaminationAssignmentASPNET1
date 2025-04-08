@@ -11,3 +11,6 @@ C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Domain\obj\D
 C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Domain\obj\Debug\net9.0\ref\Domain.dll
 C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Domain\obj\Debug\net9.0\Domain.csproj.AssemblyReference.cache
 C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Domain\obj\Debug\net9.0\Domain.sourcelink.json
+C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Domain\bin\Debug\net9.0\Hubs.dll
+C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Domain\bin\Debug\net9.0\Hubs.pdb
+C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Domain\obj\Debug\net9.0\Domain.csproj.Up2Date

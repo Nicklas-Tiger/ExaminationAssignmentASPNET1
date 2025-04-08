@@ -9,6 +9,33 @@ document.addEventListener('DOMContentLoaded', () => {
     setInterval(updateRelativeTimes, 60000);
 })
 
+const uploadTrigger = document.getElementById('upload-trigger')
+const fileInput = document.getElementById('image-upload')
+const imagePreview = document.getElementById('image-preview')
+const imagePreviewIcon = document.getElementById('image-preview-icon')
+const imagePreviewIconContainer = document.getElementById('image-preview-icon-container')
+
+uploadTrigger.addEventListener('click', function () {
+    fileInput.click()
+})
+
+fileInput.addEventListener('change', function (e) {
+    const file = e.target.files[0]
+    if (file && file.type.startsWith('image/')) {
+        const reader = new FileReader()
+
+        reader.onload = (e) => {
+            imagePreview.src = e.target.result
+            imagePreview.classList.remove('hide')
+            imagePreviewIconContainer.classList.add('selected')
+            imagePreviewIcon.classList.remove('fa-camera')
+            imagePreviewIcon.classList.add('fa-pen-to-square')
+
+        }
+        reader.readAsDataURL(file)
+    }
+})
+
 function initMobileMenu() {
     const buttons = document.querySelectorAll('[data-type="menu"]')
     buttons.forEach(button => {

@@ -204,7 +204,11 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Hubs\\Hubs.csproj": {
+                "projectPath": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Hubs\\Hubs.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

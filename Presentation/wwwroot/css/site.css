@@ -1,16 +1,19 @@
-/* Importera typsnitt */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
 
 /* ============================= */
-/*  CSS-variabler & inställningar */
+/*  CSS-variables & settings */
 /* ============================= */
 :root {
-    /* Typsnitt */
+    /* fonts */
     --font-standard: "Nunito", sans-serif;
     --font-logo: "Comfortaa", sans-serif;
     --font-fa-pro: "Font Awesome 6 Pro";
-    /* Färgpalett */
+    /* properties */
+    --border-radius: 12px;
+    --border-radius-bottom: 0 0 12px 12px;
+    --border-radius-top: 12px 12px 0 0;
+    /* standard colors */
     --blue-light-opacity: rgba(45, 125, 204, 0.10);
     --blue-light: #DBEDFF;
     --blue-semilight: #9DCEFF;
@@ -50,12 +53,13 @@
     --dark-700: #414144;
     --dark-opacity-20: rgba(26, 25, 38, 0.2);
     --dark-opacity-60: rgba(26, 25, 38, 0.6);
-    /* Skuggor, kanter & delare */
+    --transparent: transparent;
+    /* shadow, border & divider */
     --box-shadow: 0 5px 5px 1px rgba(0, 0, 0, 0.05);
     --border-color: var(--gray-500);
     --border-focus-color: var(--blue-semilight);
     --divider-color: var(--gray-500);
-    /* Text & bakgrund */
+    /* text & background */
     --text-color: var(--dark-400);
     --text-muted-color: var(--gray-800);
     --text-extra-muted-color: var(--gray-600);
@@ -63,24 +67,52 @@
     --background-color: var(--white-200);
     --modal-background-color: var(--dark-opacity-20);
     --orseperator-background-color: var(--white-100);
-    /* Knappar */
+    /* button */
     --btn-text-color: var(--white-100);
     --btn-border-color: var(--white-100);
     --btn-background-color: var(--blue);
     --btn-hover-text-color: var(--white-100);
     --btn-hover-border-color: var(--white-100);
     --btn-hover-background-color: var(--blue-dark);
-    /* Länkar */
+    /* button account */
+    --btn-account-text-color: var(--dark-400);
+    --btn-account-border-color: var(--white-100);
+    --btn-account-background-color: var(--transparent);
+    /* button notifications */
+    --btn-notification-text-color: var(--dark-400);
+    --btn-notification-text-hover-color: var(--dark-400);
+    --btn-notification-background-color: var(--white-100);
+    --btn-hover-background-color: var(--blue-dark);
+    /* button external*/
+    --btn-external-text-color: var(--dark-400);
+    --btn-external-border-color: var(--gray-500);
+    --btn-external-background-color: var(--white-200);
+    --btn-external-hover-text-color: var(--white-100);
+    --btn-external-hover-border-color: var(--white-100);
+    --btn-external-background-hover-color: var(--blue-dark);
+    /* button close */
+    --btn-close-text-color: var(--dark-400);
+    --btn-close-border-color: var(--transparent);
+    --btn-close-background-color: var(--transparent);
+    --btn-close-text-hover-color: var(--dark-400);
+    --btn-close-border-hover-color: var(--transparent);
+    --btn-close-background-hover-color: var(--blue-light-opacity);
+    /* links */
     --link-color: var(--blue);
     --link-hover-color: var(--blue-dark);
-    /* Navigation */
+    /* dropdown */
+    --dropdown-text-color: var(--dark-400);
+    --dropdown-border-color: var(--white-100);
+    --dropdown-background-color: var(--white-100);
+    
+    /* navigation */
     --navlink-text-color: var(--dark-200);
     --navlink-text-hover-color: var(--blue);
     --navlink-text-active-color: var(--blue);
     --navlink-background-color: transparent;
     --navlink-background-hover-color: var(--blue-light-opacity);
     --navlink-background-active-color: var(--blue-light-opacity);
-    /* Formulär */
+    /* forms */
     --form-text-color: var(--dark-400);
     --form-border-color: var(--white-100);
     --form-background-color: var(--white-100);
@@ -102,10 +134,10 @@
     --form-search-input-background-color: var(--white-200);
     --form-search-input-border-color: var(--white-200);
     --form-search-input-border-focus-color: var(--blue-semilight);
-    /* Aviseringar */
+    /* notifications */
     --alert-notification-error-text-color: var(--red-dark);
     --alert-notification-error-background-color: var(--red-light);
-    /* Kort */
+    /* cards */
     --card-text-color: var(--dark-400);
     --card-border-color: var(--white-100);
     --card-background-color: var(--white-100);
@@ -125,15 +157,19 @@
     --dot-red-background-color: var(--red);
     --dot-yellow-background-color: var(--yellow);
     --dot-green-background-color: var(--green);
+    /* shapes - circle */
+    --circle-gray-text-color: var(--white-100);
+    --circle-gray-border-color: var(--dark-opacity-60);
+    --circle-gray-background-color: var(--dark-opacity-60);
 }
 
 [data-mode="dark"] {
-    /* Skuggor & kanter */
+    /* shadows & borders */
     --box-shadow: 0 5px 5px 1px rgba(0, 0, 0, 0.05);
     --border-color: var(--dark-400);
     --border-focus-color: var(--blue-semilight);
     --divider-color: var(--dark-700);
-    /* Text & bakgrund */
+    /* text & background */
     --text-color: var(--white-400);
     --text-muted-color: var(--gray-800);
     --text-extra-muted-color: var(--gray-600);
@@ -141,17 +177,17 @@
     --background-color: var(--dark-100);
     --modal-background-color: var(--dark-opacity-20);
     --orseperator-background-color: var(--white-100);
-    /* Länkar */
+    /* links */
     --link-color: var(--blue);
     --link-hover-color: var(--blue-dark);
-    /* Navigation */
+    /* navigation */
     --navlink-text-color: var(--white-400);
     --navlink-text-hover-color: var(--blue);
     --navlink-text-active-color: var(--blue);
     --navlink-background-color: transparent;
     --navlink-background-hover-color: var(--blue-light-opacity);
     --navlink-background-active-color: var(--blue-light-opacity);
-    /* Formulär */
+    /* forms */
     --form-text-color: var(--dark-400);
     --form-border-color: var(--white-100);
     --form-background-color: var(--white-100);
@@ -173,14 +209,14 @@
     --form-search-input-background-color: var(--dark-100);
     --form-search-input-border-color: var(--dark-100);
     --form-search-input-border-focus-color: var(--blue-dark);
-    /* Aviseringar */
+    /* notifications error */
     --alert-notification-error-text-color: var(--red-dark);
     --alert-notification-error-background-color: var(--red-light);
-    /* Kort */
+    /* cards */
     --card-text-color: var(--white-400);
     --card-border-color: var(--dark-400);
     --card-background-color: var(--dark-400);
-    /* profil */
+    /* profile */
     --profile-info-background-color: var(--dark-100);
     --profile-info-text-color: var(--white-100);
 }
@@ -229,7 +265,7 @@ html, body {
 }
 
 /* ============================= */
-/*         Header & Logotyp      */
+/*         Header & Logotype     */
 /* ============================= */
 .logotype {
     display: flex;
@@ -279,7 +315,6 @@ header {
     min-height: 65px;
 }
 
-    /* Specifik logotyp för mobil */
     header .logotype {
         display: flex;
     }
@@ -312,9 +347,6 @@ header .top-menu {
     gap: 2rem;
 }
 
-/* ============================= */
-/*         Huvudinnehåll         */
-/* ============================= */
 main {
     grid-area: main;
     padding: 1.5rem 1.5rem;
@@ -327,7 +359,7 @@ main {
 }
 
 /* ============================= */
-/*         Sidomeny              */
+/*         Sidemenu              */
 /* ============================= */
 aside {
     grid-area: aside;
@@ -347,7 +379,6 @@ aside {
     }
 }
 
-/* Visar sidomenyn vid toggling på mobil */
 aside.show {
     top: 0;
     left: 0;
@@ -388,7 +419,7 @@ aside .btn-close {
 }
 
 /* ============================= */
-/*        Hjälpklasser          */
+/*        help          */
 /* ============================= */
 .container {
     padding: 1rem 1.5rem;
@@ -437,7 +468,24 @@ aside .btn-close {
     }
 
 /* ============================= */
-/*           Knappar           */
+/*           dropdowns           */
+/* ============================= */
+
+.dropdown {
+    display: none;
+    position: absolute;
+    right: 0;
+    top 110;
+    background-color: var(--dropdown-background-color);
+    border: 1px solid var(--dropdown-border-color);
+    color: var(--dropdown-text-color);
+    padding: 0.8rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+}
+
+/* ============================= */
+/*           buttons           */
 /* ============================= */
 .btn {
     color: var(--btn-text-color);
@@ -539,14 +587,34 @@ aside .btn-close {
         top: 10px;
     }
 
-
-
+.btn-action {
+    transition: background-color 0.1s ease-in-out, border-color 0.1s ease-in-out, color 01s ease-in-out;
+    background-color: var(--btn-close-background-color);
+    border: 1px solid var(--btn-close-border-color);
+    color: var(--btn-close-text-color);
+    z-index: 999;
+    font-size: 1.4rem;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: var(--border-radius);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .btn-action:hover {
+        background-color: var(--btn-background-color);
+        border: 1px solid var(--btn-border-color);
+        color: var(--btn-text-color);
+        text-decoration: none;
+    }
 
 
 
 
 /* ============================= */
-/*      Navigationslänkar        */
+/*      navigationlinks        */
 /* ============================= */
 .nav-links {
     margin: 2rem 0;
@@ -579,7 +647,7 @@ aside .btn-close {
         }
 
 /* ============================= */
-/*         Rubriker            */
+/*         headers            */
 /* ============================= */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -620,7 +688,7 @@ h6, .h6 {
 }
 
 /* ============================= */
-/*           Länkar            */
+/*           links            */
 /* ============================= */
 a {
     text-decoration: none;
@@ -634,7 +702,7 @@ a {
     }
 
 /* ============================= */
-/*            Form           */
+/*            forms           */
 /* ============================= */
 form {
     width: 100%;
@@ -648,6 +716,7 @@ form {
         gap: 0.2rem;
         margin-bottom: 1.2rem;
         text-align: left;
+        width: 100%;
     }
 
     form .field-group {
@@ -728,6 +797,28 @@ form {
             color: var(--form-search-input-text-color);
             border-bottom: 1px solid var(--form-search-input-border-focus-color);
         }
+.form-horizontal-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 1rem;
+}
+
+
+.form-input-extended {
+    position: relative;
+}
+
+    .form-input-extended i {
+        position: absolute;
+        z-index: 1;
+        left: 14px;
+        top: 12px;
+    }
+
+    .form-input-extended .form-input {
+        padding-left: 2.5rem;
+    }
 
 
 .input-validation-error {
@@ -735,6 +826,63 @@ form {
     border-color: var(--form-error-input-border-color);
     background-color: var(--form-error-input-background-color);
 }
+
+/* Image Preview */
+
+.image-preview-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border: 2px dashed var(--border-color);
+    margin: auto;
+    border-radius: 16px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+    .image-preview-container.project-image {
+        border-radius: var(--border-radius);
+        overflow: hidden;
+    }
+
+    .image-preview-container.user-image {
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .image-preview-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+/* Shapes */
+.circle{
+    position: absolute;
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+
+}
+.circle.selected{
+    bottom: 2%;
+}
+
+.circle-gray {
+    color: var(--circle-gray-text-color);
+    border: 1px solid var(--circle-gray-border-color);
+    background-color: var(--circle-gray-background-color);
+}
+
+
 
 .field-validation-error {
     position: absolute;
@@ -776,7 +924,7 @@ form {
 }
 
 /* ============================= */
-/*       Sektionrubriker       */
+/*       sectionheaders       */
 /* ============================= */
 .section-header {
     display: flex;
@@ -815,13 +963,12 @@ form {
 }
 
 /* ============================= */
-/*           Kort              */
+/*           cards              */
 /* ============================= */
 .card {
     background-color: var(--card-background-color);
     border: 1px solid var(--card-border-color);
     color: var(--card-text-color);
-    margin: 2rem;
     padding: 1.2rem 1.5rem;
     border-radius: 16px;
     width: 100%;
@@ -844,7 +991,7 @@ form {
     }
 
 /* ============================= */
-/*           Logga in            */
+/*           log in            */
 /* ============================= */
 #login {
     width: 600px;
@@ -895,7 +1042,7 @@ form {
 }
 
 /* ============================= */
-/*   Dark Mode-toggle (exempel)  */
+/*   Dark Mode-toggle */
 /* ============================= */
 .switch {
     position: relative;
@@ -1285,3 +1432,134 @@ input:checked + .slider {
     padding: 0.3rem 0.6rem;
     font-size: 0.9em;
 }
+#projects {
+    display: grid;
+    gap: 3rem;
+}
+
+    #projects .project-list {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+    }
+
+    #projects .card-header{
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        grid-template-areas: "img name action" "img client na";
+        align-items: center;
+        column-gap: 1rem;
+    }
+.project-dropdown-container {
+    position: relative;
+    display: inline-block;
+    z-index: 0;
+}
+
+.project-dropdown {
+    display: none; 
+    position: absolute;
+    top: 40px; 
+    right: 0;
+    min-width: 200px; /
+    background-color: var(--white-100); 
+    border-radius: var(--border-radius); 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    z-index: 999;
+    border: none; 
+    overflow: hidden; 
+}
+
+    .project-dropdown.show {
+        display: block; 
+    }
+
+    .project-dropdown .dropdown-body {
+        display: flex;
+        flex-direction: column;
+        padding: 0.5rem 0;
+
+    }
+
+
+.dropdown-actions {
+    display: block; 
+
+}
+
+
+.dropdown-action {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; 
+    padding: 0.6rem 1rem; 
+    font-size: 0.95rem;
+    color: var(--dropdown-text-color);
+    transition: background-color 0.15s ease-in-out, color 0.15s;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+}
+
+    .dropdown-action i {
+        font-size: 1.1rem;
+        color: var(--dropdown-text-color);
+    }
+
+    .dropdown-action span {
+        white-space: nowrap; 
+    }
+
+    .dropdown-action:hover {
+        background-color: var(--white-200);
+        color: #222222;
+        text-decoration: none;
+    }
+
+        .dropdown-action:hover i {
+            color: #222222; 
+        }
+
+
+.divider {
+    height: 1px;
+    width: 100%;
+    background-color: var(--gray-400); 
+    margin: 0.3rem 0;
+}
+
+.dropdown-delete {
+    color: var(--red); 
+}
+
+    .dropdown-delete:hover {
+        background-color: rgba(229, 57, 53, 0.1); 
+        color: var(--red-dark);
+    }
+
+
+.project-image{
+    grid-area: img;
+    width: 56px;
+    height: 56px;
+    overflow: hidden;
+    border-radius: var(--border-radius);
+
+}
+
+.project-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.client-name {
+    font-size: 0.9rem;
+    color: var(--text-extra-muted-color);
+}
+
+.project-description {
+    color: var(--text-color);
+    font-size: 0.95rem;
+    margin: 0.5rem 0 0 0; 
+}
+

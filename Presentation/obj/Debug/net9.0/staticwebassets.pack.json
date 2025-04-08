@@ -37,8 +37,32 @@
       "PackagePath": "staticwebassets\\images\\profiles\\user-template-male-orange.svg"
     },
     {
-      "Id": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\project-template.svg",
-      "PackagePath": "staticwebassets\\images\\projects\\project-template.svg"
+      "Id": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\13ec9aaa-aed3-480e-b0bb-32ddb9b823a7.svg",
+      "PackagePath": "staticwebassets\\images\\projects\\13ec9aaa-aed3-480e-b0bb-32ddb9b823a7.svg"
+    },
+    {
+      "Id": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\1b25116e-2c69-4557-8e84-70fbac289190.svg",
+      "PackagePath": "staticwebassets\\images\\projects\\1b25116e-2c69-4557-8e84-70fbac289190.svg"
+    },
+    {
+      "Id": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\8295501a-a9a2-4415-ba2a-cdb69c081f35.svg",
+      "PackagePath": "staticwebassets\\images\\projects\\8295501a-a9a2-4415-ba2a-cdb69c081f35.svg"
+    },
+    {
+      "Id": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\project-template-green.svg",
+      "PackagePath": "staticwebassets\\images\\projects\\project-template-green.svg"
+    },
+    {
+      "Id": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\project-template-mixed.svg",
+      "PackagePath": "staticwebassets\\images\\projects\\project-template-mixed.svg"
+    },
+    {
+      "Id": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\project-template-orange.svg",
+      "PackagePath": "staticwebassets\\images\\projects\\project-template-orange.svg"
+    },
+    {
+      "Id": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\project-template-purple.svg",
+      "PackagePath": "staticwebassets\\images\\projects\\project-template-purple.svg"
     },
     {
       "Id": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\js\\darkmode.js",

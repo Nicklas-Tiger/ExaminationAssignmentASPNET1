@@ -19,12 +19,14 @@ public class AddProjectViewModel
     public string? Description { get; set; }
 
     [DataType(DataType.Date)]
-    [Display(Name = "Start Date", Prompt = "Enter start date")] 
-    public DateTime? StartDate { get; set; }
+    [Display(Name = "Start Date")]
+    [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
+    public DateTime? StartDate { get; set; } 
 
     [DataType(DataType.Date)]
-    [Display(Name = "End Date", Prompt = "Enter end date")]
-    public DateTime? EndDate { get; set; }
+    [Display(Name = "End Date")]
+    [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
+    public DateTime? EndDate { get; set; } 
 
     [DataType(DataType.Currency)]
     [Display(Name = "Budget", Prompt = "Enter budget")]
