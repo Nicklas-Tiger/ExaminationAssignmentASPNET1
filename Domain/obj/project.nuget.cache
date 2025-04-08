@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "OBBA9SD9ubQ=",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nicklas Tiger\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.3.0\\microsoft.aspnetcore.http.features.2.3.0.nupkg.sha512",
+    "C:\\Users\\Nicklas Tiger\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

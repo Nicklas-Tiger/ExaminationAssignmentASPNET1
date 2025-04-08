@@ -1,0 +1,81 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\alpha-logotype-icon.svg",
+      "PackagePath": "staticwebassets\\images\\alpha-logotype-icon.svg"
+    },
+    {
+      "Id": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\profiles\\user-template-female-pink.svg",
+      "PackagePath": "staticwebassets\\images\\profiles\\user-template-female-pink.svg"
+    },
+    {
+      "Id": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\profiles\\user-template-female-red.svg",
+      "PackagePath": "staticwebassets\\images\\profiles\\user-template-female-red.svg"
+    },
+    {
+      "Id": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\profiles\\user-template-male-brown.svg",
+      "PackagePath": "staticwebassets\\images\\profiles\\user-template-male-brown.svg"
+    },
+    {
+      "Id": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\profiles\\user-template-male-green.svg",
+      "PackagePath": "staticwebassets\\images\\profiles\\user-template-male-green.svg"
+    },
+    {
+      "Id": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\profiles\\user-template-male-greenpink.svg",
+      "PackagePath": "staticwebassets\\images\\profiles\\user-template-male-greenpink.svg"
+    },
+    {
+      "Id": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\profiles\\user-template-male-orange.svg",
+      "PackagePath": "staticwebassets\\images\\profiles\\user-template-male-orange.svg"
+    },
+    {
+      "Id": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\project-template.svg",
+      "PackagePath": "staticwebassets\\images\\projects\\project-template.svg"
+    },
+    {
+      "Id": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\js\\darkmode.js",
+      "PackagePath": "staticwebassets\\js\\darkmode.js"
+    },
+    {
+      "Id": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\js\\tags.js",
+      "PackagePath": "staticwebassets\\js\\tags.js"
+    },
+    {
+      "Id": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\js\\wysiwyg.js",
+      "PackagePath": "staticwebassets\\js\\wysiwyg.js"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Presentation.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Presentation.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.Presentation.props",
+      "PackagePath": "build\\Presentation.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.Presentation.props",
+      "PackagePath": "buildMultiTargeting\\Presentation.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.Presentation.props",
+      "PackagePath": "buildTransitive\\Presentation.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

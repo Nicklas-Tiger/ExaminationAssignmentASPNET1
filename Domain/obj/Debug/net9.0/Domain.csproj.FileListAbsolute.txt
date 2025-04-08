@@ -1,0 +1,13 @@
+C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Domain\bin\Debug\net9.0\Domain.deps.json
+C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Domain\bin\Debug\net9.0\Domain.dll
+C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Domain\bin\Debug\net9.0\Domain.pdb
+C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Domain\obj\Debug\net9.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Domain\obj\Debug\net9.0\Domain.AssemblyInfoInputs.cache
+C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Domain\obj\Debug\net9.0\Domain.AssemblyInfo.cs
+C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Domain\obj\Debug\net9.0\Domain.csproj.CoreCompileInputs.cache
+C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Domain\obj\Debug\net9.0\Domain.dll
+C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Domain\obj\Debug\net9.0\refint\Domain.dll
+C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Domain\obj\Debug\net9.0\Domain.pdb
+C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Domain\obj\Debug\net9.0\ref\Domain.dll
+C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Domain\obj\Debug\net9.0\Domain.csproj.AssemblyReference.cache
+C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Domain\obj\Debug\net9.0\Domain.sourcelink.json
