@@ -14,4 +14,5 @@ public class EditProjectFormData
     public decimal? Budget { get; set; }
     public string ClientId { get; set; } = null!;
     public int StatusId { get; set; }
+    public string UserId { get; set; } = null!;
 }

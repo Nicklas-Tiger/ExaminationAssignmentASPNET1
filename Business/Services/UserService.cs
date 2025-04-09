@@ -1,11 +1,11 @@
-﻿using Business.Models;
+﻿using Business.Mapping;
+using Business.Models;
 using Data.Entities;
 using Data.Repositories;
 using Domain.Extensions;
 using Domain.Models;
 using Microsoft.AspNetCore.Identity;
-using System.Diagnostics;
-using System.Linq.Expressions;
+
 
 namespace Business.Services;
 
@@ -16,6 +16,7 @@ public interface IUserService
     Task<string> GetDisplayName(string userId);
     Task<UserResult<User>> GetUserByIdAsync(string id);
     Task<UserResult> UserExistsByEmailAsync(string email);
+
 }
 
 public class UserService(IUserRepository userRepository, UserManager<UserEntity> userManager, RoleManager<IdentityRole> roleManager) : IUserService
@@ -23,6 +24,7 @@ public class UserService(IUserRepository userRepository, UserManager<UserEntity>
     private readonly IUserRepository _userRepository = userRepository;
     private readonly UserManager<UserEntity> _userManager = userManager;
     private readonly RoleManager<IdentityRole> _roleManager = roleManager;
+
 
     public async Task<UserResult> GetUsersAsync()
     {

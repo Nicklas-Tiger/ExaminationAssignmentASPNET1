@@ -4,6 +4,7 @@ using Data.Repositories;
 using Domain.Extensions;
 using Domain.Models;
 using Business.Mapping;
+using System.Linq.Expressions;
 
 namespace Business.Services;
 
@@ -66,20 +67,29 @@ public class ProjectService(IProjectRepository projectRepository, IStatusService
 
     public async Task<ProjectResult<IEnumerable<Project>>> GetProjectsAsync()
     {
+        var response = await _projectRepository.GetAllRawAsync(
+            orderByDescending: true,
+            sortBy: s => s.Created,
+            where: null,
+            includes: new Expression<Func<ProjectEntity, object>>[]
+            {
+            p => p.User,
+            p => p.Status,
+            p => p.Client
+            }
+        );
 
-        var response = await _projectRepository.GetAllAsync
-            (
-                orderByDescending: true,
-                sortBy: s => s.Created, where: null,
-                include => include.User,
-                include => include.Status,
-                include => include.Client
-            );
         if (!response.Succeeded)
-            return new ProjectResult<IEnumerable<Project>> { Succeeded = response.Succeeded, StatusCode = response.StatusCode, Result = response.Result };
+        {
+            return new ProjectResult<IEnumerable<Project>>
+            {
+                Succeeded = false,
+                StatusCode = response.StatusCode,
+                Result = null
+            };
+        }
 
-        // Mappa ProjectEntity => Domain.Models.Project
-        var projectsDomain = response.Result; // extension-metod i Business
+        var projectsDomain = response.Result!.ToDomain(); // extension-metod du redan har
 
         return new ProjectResult<IEnumerable<Project>>
         {
@@ -87,24 +97,30 @@ public class ProjectService(IProjectRepository projectRepository, IStatusService
             StatusCode = 200,
             Result = projectsDomain
         };
-
-
     }
 
     public async Task<ProjectResult<Project>> GetProjectAsync(string id)
     {
+        var response = await _projectRepository.GetAsync(
+            where: x => x.Id == id,
+            include => include.User,
+            include => include.Status,
+            include => include.Client
+        );
 
-        var response = await _projectRepository.GetAsync
-            (
-                where: x => x.Id == id,
-                include => include.User,
-                include => include.Status,
-                include => include.Client
-            );
         return response.Succeeded
-            ? new ProjectResult<Project> { Succeeded = true, StatusCode = 200, Result = response.Result }
-            : new ProjectResult<Project> { Succeeded = false, StatusCode = 404, Error = $"Project `{id}` was not found." };
-
+            ? new ProjectResult<Project>
+            {
+                Succeeded = true,
+                StatusCode = 200,
+                Result = response.Result 
+            }
+            : new ProjectResult<Project>
+            {
+                Succeeded = false,
+                StatusCode = 404,
+                Error = $"Project `{id}` was not found."
+            };
     }
 
 
@@ -113,22 +129,29 @@ public class ProjectService(IProjectRepository projectRepository, IStatusService
         if (formData == null || string.IsNullOrEmpty(formData.Id))
             return new ProjectResult { Succeeded = false, StatusCode = 400, Error = "Invalid project data." };
 
-        var existingResponse = await _projectRepository.GetAsync(
-            x => x.Id == formData.Id,
-            x => x.User, x => x.Status, x => x.Client
+        var projectEntityResponse = await _projectRepository.GetAllRawAsync(
+            where: x => x.Id == formData.Id,
+            includes: new Expression<Func<ProjectEntity, object>>[]
+            {
+            x => x.User,
+            x => x.Status,
+            x => x.Client
+            }
         );
-        if (!existingResponse.Succeeded || existingResponse.Result == null)
+
+        var projectEntity = projectEntityResponse.Result?.FirstOrDefault();
+        if (projectEntity == null)
             return new ProjectResult { Succeeded = false, StatusCode = 404, Error = "Project not found." };
 
-        var projectEntity = existingResponse.Result.MapTo<ProjectEntity>();
-
+        // Uppdatera egenskaper
         projectEntity.ProjectName = formData.ProjectName;
         projectEntity.Description = formData.Description;
         projectEntity.StatusId = formData.StatusId;
-        projectEntity.StartDate = formData.StartDate.HasValue ? formData.StartDate.Value : default(DateTime); //ChatGPT hjälpte
-        projectEntity.EndDate = formData.EndDate.HasValue ? formData.EndDate.Value : default(DateTime); //ChatGPT hjälpte
-        projectEntity.Budget = formData.Budget;
         projectEntity.ClientId = formData.ClientId;
+        projectEntity.UserId = formData.UserId;
+        projectEntity.StartDate = formData.StartDate ?? default;
+        projectEntity.EndDate = formData.EndDate ?? default;
+        projectEntity.Budget = formData.Budget;
 
         var updateResult = await _projectRepository.UpdateAsync(projectEntity);
 
@@ -136,6 +159,7 @@ public class ProjectService(IProjectRepository projectRepository, IStatusService
             ? new ProjectResult { Succeeded = true, StatusCode = 200 }
             : new ProjectResult { Succeeded = false, StatusCode = updateResult.StatusCode, Error = updateResult.Error };
     }
+
 
     public async Task<ProjectResult> DeleteProjectAsync(string id)
     {

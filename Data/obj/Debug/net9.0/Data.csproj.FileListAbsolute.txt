@@ -16,3 +16,5 @@ C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Data\bin\Deb
 C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Data\bin\Debug\net9.0\Domain.pdb
 C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Data\obj\Debug\net9.0\Data.csproj.Up2Date
 C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Data\obj\Debug\net9.0\Data.sourcelink.json
+C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Data\bin\Debug\net9.0\Hubs.dll
+C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Data\bin\Debug\net9.0\Hubs.pdb

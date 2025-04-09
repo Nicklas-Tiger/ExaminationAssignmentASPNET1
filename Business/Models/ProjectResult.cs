@@ -6,5 +6,5 @@ public class ProjectResult<T> : ServiceResult
 }
 public class ProjectResult : ServiceResult
 {
-
+    public string? ErrorMessage { get; set; }
 }

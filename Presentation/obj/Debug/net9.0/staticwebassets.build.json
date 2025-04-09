@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5yxC75RV8/AWt/PQI4BRQ5EeffVrpKJJ3EW6xuu74ZI=",
+  "Hash": "EJyFHe7dRznWKsV2vnydYOwqzZPTJ1dfbEm7Oe77q58=",
   "Source": "Presentation",
   "BasePath": "_content/Presentation",
   "Mode": "Default",
@@ -80,6 +80,48 @@
       "OriginalItemSpec": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\1b25116e-2c69-4557-8e84-70fbac289190.svg"
     },
     {
+      "Identity": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\38hhqhl3e1-koqqii8vhf.gz",
+      "SourceId": "Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Presentation",
+      "RelativePath": "images/projects/c535b61c-c4d2-4509-b417-2e8097f33790#[.{fingerprint=koqqii8vhf}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\c535b61c-c4d2-4509-b417-2e8097f33790.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "6mphhi59dx",
+      "Integrity": "EptjoqNQMtG7pADTRXj0eSjdtv723hNVo124vnBUWr0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\c535b61c-c4d2-4509-b417-2e8097f33790.svg"
+    },
+    {
+      "Identity": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\573xvxxrkf-j3qxfz01b7.gz",
+      "SourceId": "Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Presentation",
+      "RelativePath": "images/projects/de5cf768-0e2b-4262-81a9-a98fee0d0d5c#[.{fingerprint=j3qxfz01b7}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\de5cf768-0e2b-4262-81a9-a98fee0d0d5c.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "22j7cc1xtg",
+      "Integrity": "xhfFNP/oxASlY7m9peYUDB60O3TKPpSc4ro3622JrhE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\de5cf768-0e2b-4262-81a9-a98fee0d0d5c.svg"
+    },
+    {
       "Identity": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\8nuyxxfojx-i8s3i4clwg.gz",
       "SourceId": "Presentation",
       "SourceType": "Discovered",
@@ -101,12 +143,12 @@
       "OriginalItemSpec": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\profiles\\user-template-female-pink.svg"
     },
     {
-      "Identity": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\8y2rqx5iwd-09pychdyzc.gz",
+      "Identity": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\8y2rqx5iwd-sy05g8worc.gz",
       "SourceId": "Presentation",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Presentation",
-      "RelativePath": "css/site#[.{fingerprint=09pychdyzc}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=sy05g8worc}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -115,8 +157,8 @@
       "RelatedAsset": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "gmeq0ocw7w",
-      "Integrity": "eBNKS5LhUpb8b7DI3Kmo/oFZzqSnI2TWLMhDtk1hZtg=",
+      "Fingerprint": "9lk1vr71oe",
+      "Integrity": "fZnCbZ8YQbAe5IrDnMORcvsDzRDL238MVmTkQfwYec8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\css\\site.css"
@@ -162,6 +204,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\project-template-purple.svg"
+    },
+    {
+      "Identity": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\bwznkou2au-koqqii8vhf.gz",
+      "SourceId": "Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Presentation",
+      "RelativePath": "images/projects/5167fa7b-95e8-453e-a1e3-f1dc74d26b9e#[.{fingerprint=koqqii8vhf}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\5167fa7b-95e8-453e-a1e3-f1dc74d26b9e.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "6mphhi59dx",
+      "Integrity": "EptjoqNQMtG7pADTRXj0eSjdtv723hNVo124vnBUWr0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\5167fa7b-95e8-453e-a1e3-f1dc74d26b9e.svg"
     },
     {
       "Identity": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\crlnutb4sd-jdfqcpmphl.gz",
@@ -290,6 +353,27 @@
       "OriginalItemSpec": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\js\\darkmode.js"
     },
     {
+      "Identity": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\jkuj83p9um-056f8csz8o.gz",
+      "SourceId": "Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Presentation",
+      "RelativePath": "images/projects/6c700ef5-0206-44a0-84a3-c19b3298cbbf#[.{fingerprint=056f8csz8o}]?.svg.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\6c700ef5-0206-44a0-84a3-c19b3298cbbf.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "q4vb9thsc3",
+      "Integrity": "Wr8q8IIcUTlbZVbjXKfNlavoObxGaH/G/74dBfeXwIs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\6c700ef5-0206-44a0-84a3-c19b3298cbbf.svg"
+    },
+    {
       "Identity": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\k4drly8y1i-61n19gt1b8.gz",
       "SourceId": "Presentation",
       "SourceType": "Discovered",
@@ -353,25 +437,25 @@
       "OriginalItemSpec": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\js\\wysiwyg.js"
     },
     {
-      "Identity": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\pwee23np0h-f0i9ua2ypr.gz",
+      "Identity": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\t5rmyp9pm4-f0i9ua2ypr.gz",
       "SourceId": "Presentation",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/Presentation",
-      "RelativePath": "images/projects/project-template-mixed#[.{fingerprint=f0i9ua2ypr}]?.svg.gz",
+      "RelativePath": "images/projects/31df2314-6ea7-4887-9011-857327f02d71#[.{fingerprint=f0i9ua2ypr}]?.svg.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\project-template-mixed.svg",
+      "RelatedAsset": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\31df2314-6ea7-4887-9011-857327f02d71.svg",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "k9mce3rikk",
       "Integrity": "SBpFQ9EXuS+rozfMQyLVKtvngLUOCXD0XmqI3AB2A4k=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\project-template-mixed.svg"
+      "OriginalItemSpec": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\31df2314-6ea7-4887-9011-857327f02d71.svg"
     },
     {
       "Identity": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\t8m93rn0y8-6b85cvh0vd.gz",
@@ -451,8 +535,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "09pychdyzc",
-      "Integrity": "VHRsVKqlEwQSN+Iar1yZfxjDnrZmv0zsXWunXZg01Ic=",
+      "Fingerprint": "sy05g8worc",
+      "Integrity": "3DvKNDNvUxOjJ5axs9wP3WTB9RTfSXeQJE/vFqfErEA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -668,6 +752,69 @@
       "OriginalItemSpec": "wwwroot\\images\\projects\\1b25116e-2c69-4557-8e84-70fbac289190.svg"
     },
     {
+      "Identity": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\31df2314-6ea7-4887-9011-857327f02d71.svg",
+      "SourceId": "Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\",
+      "BasePath": "_content/Presentation",
+      "RelativePath": "images/projects/31df2314-6ea7-4887-9011-857327f02d71#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "f0i9ua2ypr",
+      "Integrity": "kVaWpAKU/hKr0dyfERyt5ITCnaZ5XUMCOaf+yvT1YQo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\projects\\31df2314-6ea7-4887-9011-857327f02d71.svg"
+    },
+    {
+      "Identity": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\5167fa7b-95e8-453e-a1e3-f1dc74d26b9e.svg",
+      "SourceId": "Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\",
+      "BasePath": "_content/Presentation",
+      "RelativePath": "images/projects/5167fa7b-95e8-453e-a1e3-f1dc74d26b9e#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "koqqii8vhf",
+      "Integrity": "lCMPfFwdRBI3g+LZyJEYOUFTC4fyuriIy1yeQhZsk18=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\projects\\5167fa7b-95e8-453e-a1e3-f1dc74d26b9e.svg"
+    },
+    {
+      "Identity": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\6c700ef5-0206-44a0-84a3-c19b3298cbbf.svg",
+      "SourceId": "Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\",
+      "BasePath": "_content/Presentation",
+      "RelativePath": "images/projects/6c700ef5-0206-44a0-84a3-c19b3298cbbf#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "056f8csz8o",
+      "Integrity": "LPsXd3z0qJjE7KpB0Y3bVqRyZxMqC/W1hRU57ykvWGY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\projects\\6c700ef5-0206-44a0-84a3-c19b3298cbbf.svg"
+    },
+    {
       "Identity": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\8295501a-a9a2-4415-ba2a-cdb69c081f35.svg",
       "SourceId": "Presentation",
       "SourceType": "Discovered",
@@ -689,6 +836,48 @@
       "OriginalItemSpec": "wwwroot\\images\\projects\\8295501a-a9a2-4415-ba2a-cdb69c081f35.svg"
     },
     {
+      "Identity": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\c535b61c-c4d2-4509-b417-2e8097f33790.svg",
+      "SourceId": "Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\",
+      "BasePath": "_content/Presentation",
+      "RelativePath": "images/projects/c535b61c-c4d2-4509-b417-2e8097f33790#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "koqqii8vhf",
+      "Integrity": "lCMPfFwdRBI3g+LZyJEYOUFTC4fyuriIy1yeQhZsk18=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\projects\\c535b61c-c4d2-4509-b417-2e8097f33790.svg"
+    },
+    {
+      "Identity": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\de5cf768-0e2b-4262-81a9-a98fee0d0d5c.svg",
+      "SourceId": "Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\",
+      "BasePath": "_content/Presentation",
+      "RelativePath": "images/projects/de5cf768-0e2b-4262-81a9-a98fee0d0d5c#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j3qxfz01b7",
+      "Integrity": "Xx0in8BsomxQSSThJWW16XM6I4RMqwKUFVjDgAKy+no=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\projects\\de5cf768-0e2b-4262-81a9-a98fee0d0d5c.svg"
+    },
+    {
       "Identity": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\project-template-green.svg",
       "SourceId": "Presentation",
       "SourceType": "Discovered",
@@ -708,27 +897,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\projects\\project-template-green.svg"
-    },
-    {
-      "Identity": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\project-template-mixed.svg",
-      "SourceId": "Presentation",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\",
-      "BasePath": "_content/Presentation",
-      "RelativePath": "images/projects/project-template-mixed#[.{fingerprint}]?.svg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "f0i9ua2ypr",
-      "Integrity": "kVaWpAKU/hKr0dyfERyt5ITCnaZ5XUMCOaf+yvT1YQo=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\projects\\project-template-mixed.svg"
     },
     {
       "Identity": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\project-template-orange.svg",
@@ -859,13 +1027,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.09pychdyzc.css",
-      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\8y2rqx5iwd-09pychdyzc.gz",
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\8y2rqx5iwd-sy05g8worc.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000162469537"
+          "Quality": "0.000154750851"
         }
       ],
       "ResponseHeaders": [
@@ -875,19 +1043,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6154"
+          "Value": "6461"
         },
         {
           "Name": "ETag",
-          "Value": "\"eBNKS5LhUpb8b7DI3Kmo/oFZzqSnI2TWLMhDtk1hZtg=\""
+          "Value": "\"fZnCbZ8YQbAe5IrDnMORcvsDzRDL238MVmTkQfwYec8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 17:58:59 GMT"
+          "Value": "Wed, 09 Apr 2025 12:08:23 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -903,26 +1071,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"VHRsVKqlEwQSN+Iar1yZfxjDnrZmv0zsXWunXZg01Ic=\""
+          "Value": "W/\"3DvKNDNvUxOjJ5axs9wP3WTB9RTfSXeQJE/vFqfErEA=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "09pychdyzc"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-VHRsVKqlEwQSN+Iar1yZfxjDnrZmv0zsXWunXZg01Ic="
+          "Value": "sha256-3DvKNDNvUxOjJ5axs9wP3WTB9RTfSXeQJE/vFqfErEA="
         }
       ]
     },
     {
-      "Route": "css/site.09pychdyzc.css",
+      "Route": "css/site.css",
       "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -932,7 +1092,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "38844"
+          "Value": "41218"
         },
         {
           "Name": "Content-Type",
@@ -940,11 +1100,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"VHRsVKqlEwQSN+Iar1yZfxjDnrZmv0zsXWunXZg01Ic=\""
+          "Value": "\"3DvKNDNvUxOjJ5axs9wP3WTB9RTfSXeQJE/vFqfErEA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 17:58:59 GMT"
+          "Value": "Wed, 09 Apr 2025 12:08:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3DvKNDNvUxOjJ5axs9wP3WTB9RTfSXeQJE/vFqfErEA="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\8y2rqx5iwd-sy05g8worc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6461"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fZnCbZ8YQbAe5IrDnMORcvsDzRDL238MVmTkQfwYec8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 12:08:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fZnCbZ8YQbAe5IrDnMORcvsDzRDL238MVmTkQfwYec8="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.sy05g8worc.css",
+      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\8y2rqx5iwd-sy05g8worc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000154750851"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6461"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fZnCbZ8YQbAe5IrDnMORcvsDzRDL238MVmTkQfwYec8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 12:08:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"3DvKNDNvUxOjJ5axs9wP3WTB9RTfSXeQJE/vFqfErEA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sy05g8worc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3DvKNDNvUxOjJ5axs9wP3WTB9RTfSXeQJE/vFqfErEA="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.sy05g8worc.css",
+      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41218"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3DvKNDNvUxOjJ5axs9wP3WTB9RTfSXeQJE/vFqfErEA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 12:08:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -954,7 +1259,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "09pychdyzc"
+          "Value": "sy05g8worc"
         },
         {
           "Name": "label",
@@ -962,13 +1267,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-VHRsVKqlEwQSN+Iar1yZfxjDnrZmv0zsXWunXZg01Ic="
+          "Value": "sha256-3DvKNDNvUxOjJ5axs9wP3WTB9RTfSXeQJE/vFqfErEA="
         }
       ]
     },
     {
-      "Route": "css/site.09pychdyzc.css.gz",
-      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\8y2rqx5iwd-09pychdyzc.gz",
+      "Route": "css/site.sy05g8worc.css.gz",
+      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\8y2rqx5iwd-sy05g8worc.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -977,7 +1282,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6154"
+          "Value": "6461"
         },
         {
           "Name": "Content-Type",
@@ -985,11 +1290,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"eBNKS5LhUpb8b7DI3Kmo/oFZzqSnI2TWLMhDtk1hZtg=\""
+          "Value": "\"fZnCbZ8YQbAe5IrDnMORcvsDzRDL238MVmTkQfwYec8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 17:58:59 GMT"
+          "Value": "Wed, 09 Apr 2025 12:08:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1007,7 +1312,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "09pychdyzc"
+          "Value": "sy05g8worc"
         },
         {
           "Name": "label",
@@ -1015,144 +1320,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-eBNKS5LhUpb8b7DI3Kmo/oFZzqSnI2TWLMhDtk1hZtg="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\8y2rqx5iwd-09pychdyzc.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000162469537"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6154"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"eBNKS5LhUpb8b7DI3Kmo/oFZzqSnI2TWLMhDtk1hZtg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 17:58:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"VHRsVKqlEwQSN+Iar1yZfxjDnrZmv0zsXWunXZg01Ic=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-VHRsVKqlEwQSN+Iar1yZfxjDnrZmv0zsXWunXZg01Ic="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "38844"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"VHRsVKqlEwQSN+Iar1yZfxjDnrZmv0zsXWunXZg01Ic=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 17:58:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-VHRsVKqlEwQSN+Iar1yZfxjDnrZmv0zsXWunXZg01Ic="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\8y2rqx5iwd-09pychdyzc.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "6154"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"eBNKS5LhUpb8b7DI3Kmo/oFZzqSnI2TWLMhDtk1hZtg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 17:58:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-eBNKS5LhUpb8b7DI3Kmo/oFZzqSnI2TWLMhDtk1hZtg="
+          "Value": "sha256-fZnCbZ8YQbAe5IrDnMORcvsDzRDL238MVmTkQfwYec8="
         }
       ]
     },
@@ -4137,6 +4305,900 @@
       ]
     },
     {
+      "Route": "images/projects/31df2314-6ea7-4887-9011-857327f02d71.f0i9ua2ypr.svg",
+      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\t5rmyp9pm4-f0i9ua2ypr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001023541453"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "976"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SBpFQ9EXuS+rozfMQyLVKtvngLUOCXD0XmqI3AB2A4k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 07:36:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"kVaWpAKU/hKr0dyfERyt5ITCnaZ5XUMCOaf+yvT1YQo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f0i9ua2ypr"
+        },
+        {
+          "Name": "label",
+          "Value": "images/projects/31df2314-6ea7-4887-9011-857327f02d71.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kVaWpAKU/hKr0dyfERyt5ITCnaZ5XUMCOaf+yvT1YQo="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/31df2314-6ea7-4887-9011-857327f02d71.f0i9ua2ypr.svg",
+      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\31df2314-6ea7-4887-9011-857327f02d71.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kVaWpAKU/hKr0dyfERyt5ITCnaZ5XUMCOaf+yvT1YQo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 07:36:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f0i9ua2ypr"
+        },
+        {
+          "Name": "label",
+          "Value": "images/projects/31df2314-6ea7-4887-9011-857327f02d71.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kVaWpAKU/hKr0dyfERyt5ITCnaZ5XUMCOaf+yvT1YQo="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/31df2314-6ea7-4887-9011-857327f02d71.f0i9ua2ypr.svg.gz",
+      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\t5rmyp9pm4-f0i9ua2ypr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "976"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SBpFQ9EXuS+rozfMQyLVKtvngLUOCXD0XmqI3AB2A4k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 07:36:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f0i9ua2ypr"
+        },
+        {
+          "Name": "label",
+          "Value": "images/projects/31df2314-6ea7-4887-9011-857327f02d71.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SBpFQ9EXuS+rozfMQyLVKtvngLUOCXD0XmqI3AB2A4k="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/31df2314-6ea7-4887-9011-857327f02d71.svg",
+      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\t5rmyp9pm4-f0i9ua2ypr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001023541453"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "976"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SBpFQ9EXuS+rozfMQyLVKtvngLUOCXD0XmqI3AB2A4k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 07:36:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"kVaWpAKU/hKr0dyfERyt5ITCnaZ5XUMCOaf+yvT1YQo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kVaWpAKU/hKr0dyfERyt5ITCnaZ5XUMCOaf+yvT1YQo="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/31df2314-6ea7-4887-9011-857327f02d71.svg",
+      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\31df2314-6ea7-4887-9011-857327f02d71.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kVaWpAKU/hKr0dyfERyt5ITCnaZ5XUMCOaf+yvT1YQo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 07:36:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kVaWpAKU/hKr0dyfERyt5ITCnaZ5XUMCOaf+yvT1YQo="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/31df2314-6ea7-4887-9011-857327f02d71.svg.gz",
+      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\t5rmyp9pm4-f0i9ua2ypr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "976"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SBpFQ9EXuS+rozfMQyLVKtvngLUOCXD0XmqI3AB2A4k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 07:36:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SBpFQ9EXuS+rozfMQyLVKtvngLUOCXD0XmqI3AB2A4k="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/5167fa7b-95e8-453e-a1e3-f1dc74d26b9e.koqqii8vhf.svg",
+      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\bwznkou2au-koqqii8vhf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001027749229"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "972"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EptjoqNQMtG7pADTRXj0eSjdtv723hNVo124vnBUWr0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 07:37:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"lCMPfFwdRBI3g+LZyJEYOUFTC4fyuriIy1yeQhZsk18=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "koqqii8vhf"
+        },
+        {
+          "Name": "label",
+          "Value": "images/projects/5167fa7b-95e8-453e-a1e3-f1dc74d26b9e.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lCMPfFwdRBI3g+LZyJEYOUFTC4fyuriIy1yeQhZsk18="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/5167fa7b-95e8-453e-a1e3-f1dc74d26b9e.koqqii8vhf.svg",
+      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\5167fa7b-95e8-453e-a1e3-f1dc74d26b9e.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2061"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lCMPfFwdRBI3g+LZyJEYOUFTC4fyuriIy1yeQhZsk18=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 07:37:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "koqqii8vhf"
+        },
+        {
+          "Name": "label",
+          "Value": "images/projects/5167fa7b-95e8-453e-a1e3-f1dc74d26b9e.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lCMPfFwdRBI3g+LZyJEYOUFTC4fyuriIy1yeQhZsk18="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/5167fa7b-95e8-453e-a1e3-f1dc74d26b9e.koqqii8vhf.svg.gz",
+      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\bwznkou2au-koqqii8vhf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "972"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EptjoqNQMtG7pADTRXj0eSjdtv723hNVo124vnBUWr0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 07:37:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "koqqii8vhf"
+        },
+        {
+          "Name": "label",
+          "Value": "images/projects/5167fa7b-95e8-453e-a1e3-f1dc74d26b9e.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EptjoqNQMtG7pADTRXj0eSjdtv723hNVo124vnBUWr0="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/5167fa7b-95e8-453e-a1e3-f1dc74d26b9e.svg",
+      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\bwznkou2au-koqqii8vhf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001027749229"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "972"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EptjoqNQMtG7pADTRXj0eSjdtv723hNVo124vnBUWr0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 07:37:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"lCMPfFwdRBI3g+LZyJEYOUFTC4fyuriIy1yeQhZsk18=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lCMPfFwdRBI3g+LZyJEYOUFTC4fyuriIy1yeQhZsk18="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/5167fa7b-95e8-453e-a1e3-f1dc74d26b9e.svg",
+      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\5167fa7b-95e8-453e-a1e3-f1dc74d26b9e.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2061"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lCMPfFwdRBI3g+LZyJEYOUFTC4fyuriIy1yeQhZsk18=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 07:37:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lCMPfFwdRBI3g+LZyJEYOUFTC4fyuriIy1yeQhZsk18="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/5167fa7b-95e8-453e-a1e3-f1dc74d26b9e.svg.gz",
+      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\bwznkou2au-koqqii8vhf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "972"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EptjoqNQMtG7pADTRXj0eSjdtv723hNVo124vnBUWr0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 07:37:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EptjoqNQMtG7pADTRXj0eSjdtv723hNVo124vnBUWr0="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/6c700ef5-0206-44a0-84a3-c19b3298cbbf.056f8csz8o.svg",
+      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\jkuj83p9um-056f8csz8o.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001031991744"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "968"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Wr8q8IIcUTlbZVbjXKfNlavoObxGaH/G/74dBfeXwIs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 06:30:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"LPsXd3z0qJjE7KpB0Y3bVqRyZxMqC/W1hRU57ykvWGY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "056f8csz8o"
+        },
+        {
+          "Name": "label",
+          "Value": "images/projects/6c700ef5-0206-44a0-84a3-c19b3298cbbf.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LPsXd3z0qJjE7KpB0Y3bVqRyZxMqC/W1hRU57ykvWGY="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/6c700ef5-0206-44a0-84a3-c19b3298cbbf.056f8csz8o.svg",
+      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\6c700ef5-0206-44a0-84a3-c19b3298cbbf.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2055"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LPsXd3z0qJjE7KpB0Y3bVqRyZxMqC/W1hRU57ykvWGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 06:30:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "056f8csz8o"
+        },
+        {
+          "Name": "label",
+          "Value": "images/projects/6c700ef5-0206-44a0-84a3-c19b3298cbbf.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LPsXd3z0qJjE7KpB0Y3bVqRyZxMqC/W1hRU57ykvWGY="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/6c700ef5-0206-44a0-84a3-c19b3298cbbf.056f8csz8o.svg.gz",
+      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\jkuj83p9um-056f8csz8o.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "968"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Wr8q8IIcUTlbZVbjXKfNlavoObxGaH/G/74dBfeXwIs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 06:30:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "056f8csz8o"
+        },
+        {
+          "Name": "label",
+          "Value": "images/projects/6c700ef5-0206-44a0-84a3-c19b3298cbbf.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Wr8q8IIcUTlbZVbjXKfNlavoObxGaH/G/74dBfeXwIs="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/6c700ef5-0206-44a0-84a3-c19b3298cbbf.svg",
+      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\jkuj83p9um-056f8csz8o.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001031991744"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "968"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Wr8q8IIcUTlbZVbjXKfNlavoObxGaH/G/74dBfeXwIs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 06:30:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"LPsXd3z0qJjE7KpB0Y3bVqRyZxMqC/W1hRU57ykvWGY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LPsXd3z0qJjE7KpB0Y3bVqRyZxMqC/W1hRU57ykvWGY="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/6c700ef5-0206-44a0-84a3-c19b3298cbbf.svg",
+      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\6c700ef5-0206-44a0-84a3-c19b3298cbbf.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2055"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LPsXd3z0qJjE7KpB0Y3bVqRyZxMqC/W1hRU57ykvWGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 06:30:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LPsXd3z0qJjE7KpB0Y3bVqRyZxMqC/W1hRU57ykvWGY="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/6c700ef5-0206-44a0-84a3-c19b3298cbbf.svg.gz",
+      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\jkuj83p9um-056f8csz8o.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "968"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Wr8q8IIcUTlbZVbjXKfNlavoObxGaH/G/74dBfeXwIs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 06:30:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Wr8q8IIcUTlbZVbjXKfNlavoObxGaH/G/74dBfeXwIs="
+        }
+      ]
+    },
+    {
       "Route": "images/projects/8295501a-a9a2-4415-ba2a-cdb69c081f35.koqqii8vhf.svg",
       "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\x5dt1tnf79-koqqii8vhf.gz",
       "Selectors": [
@@ -4435,6 +5497,602 @@
       ]
     },
     {
+      "Route": "images/projects/c535b61c-c4d2-4509-b417-2e8097f33790.koqqii8vhf.svg",
+      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\38hhqhl3e1-koqqii8vhf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001027749229"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "972"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EptjoqNQMtG7pADTRXj0eSjdtv723hNVo124vnBUWr0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 05:44:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"lCMPfFwdRBI3g+LZyJEYOUFTC4fyuriIy1yeQhZsk18=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "koqqii8vhf"
+        },
+        {
+          "Name": "label",
+          "Value": "images/projects/c535b61c-c4d2-4509-b417-2e8097f33790.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lCMPfFwdRBI3g+LZyJEYOUFTC4fyuriIy1yeQhZsk18="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/c535b61c-c4d2-4509-b417-2e8097f33790.koqqii8vhf.svg",
+      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\c535b61c-c4d2-4509-b417-2e8097f33790.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2061"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lCMPfFwdRBI3g+LZyJEYOUFTC4fyuriIy1yeQhZsk18=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 05:44:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "koqqii8vhf"
+        },
+        {
+          "Name": "label",
+          "Value": "images/projects/c535b61c-c4d2-4509-b417-2e8097f33790.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lCMPfFwdRBI3g+LZyJEYOUFTC4fyuriIy1yeQhZsk18="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/c535b61c-c4d2-4509-b417-2e8097f33790.koqqii8vhf.svg.gz",
+      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\38hhqhl3e1-koqqii8vhf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "972"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EptjoqNQMtG7pADTRXj0eSjdtv723hNVo124vnBUWr0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 05:44:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "koqqii8vhf"
+        },
+        {
+          "Name": "label",
+          "Value": "images/projects/c535b61c-c4d2-4509-b417-2e8097f33790.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EptjoqNQMtG7pADTRXj0eSjdtv723hNVo124vnBUWr0="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/c535b61c-c4d2-4509-b417-2e8097f33790.svg",
+      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\38hhqhl3e1-koqqii8vhf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001027749229"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "972"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EptjoqNQMtG7pADTRXj0eSjdtv723hNVo124vnBUWr0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 05:44:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"lCMPfFwdRBI3g+LZyJEYOUFTC4fyuriIy1yeQhZsk18=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lCMPfFwdRBI3g+LZyJEYOUFTC4fyuriIy1yeQhZsk18="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/c535b61c-c4d2-4509-b417-2e8097f33790.svg",
+      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\c535b61c-c4d2-4509-b417-2e8097f33790.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2061"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lCMPfFwdRBI3g+LZyJEYOUFTC4fyuriIy1yeQhZsk18=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 05:44:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lCMPfFwdRBI3g+LZyJEYOUFTC4fyuriIy1yeQhZsk18="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/c535b61c-c4d2-4509-b417-2e8097f33790.svg.gz",
+      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\38hhqhl3e1-koqqii8vhf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "972"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EptjoqNQMtG7pADTRXj0eSjdtv723hNVo124vnBUWr0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 05:44:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EptjoqNQMtG7pADTRXj0eSjdtv723hNVo124vnBUWr0="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/de5cf768-0e2b-4262-81a9-a98fee0d0d5c.j3qxfz01b7.svg",
+      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\573xvxxrkf-j3qxfz01b7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001029866117"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "970"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xhfFNP/oxASlY7m9peYUDB60O3TKPpSc4ro3622JrhE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 06:29:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Xx0in8BsomxQSSThJWW16XM6I4RMqwKUFVjDgAKy+no=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j3qxfz01b7"
+        },
+        {
+          "Name": "label",
+          "Value": "images/projects/de5cf768-0e2b-4262-81a9-a98fee0d0d5c.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Xx0in8BsomxQSSThJWW16XM6I4RMqwKUFVjDgAKy+no="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/de5cf768-0e2b-4262-81a9-a98fee0d0d5c.j3qxfz01b7.svg",
+      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\de5cf768-0e2b-4262-81a9-a98fee0d0d5c.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2061"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Xx0in8BsomxQSSThJWW16XM6I4RMqwKUFVjDgAKy+no=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 06:29:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j3qxfz01b7"
+        },
+        {
+          "Name": "label",
+          "Value": "images/projects/de5cf768-0e2b-4262-81a9-a98fee0d0d5c.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Xx0in8BsomxQSSThJWW16XM6I4RMqwKUFVjDgAKy+no="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/de5cf768-0e2b-4262-81a9-a98fee0d0d5c.j3qxfz01b7.svg.gz",
+      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\573xvxxrkf-j3qxfz01b7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "970"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xhfFNP/oxASlY7m9peYUDB60O3TKPpSc4ro3622JrhE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 06:29:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j3qxfz01b7"
+        },
+        {
+          "Name": "label",
+          "Value": "images/projects/de5cf768-0e2b-4262-81a9-a98fee0d0d5c.svg.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xhfFNP/oxASlY7m9peYUDB60O3TKPpSc4ro3622JrhE="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/de5cf768-0e2b-4262-81a9-a98fee0d0d5c.svg",
+      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\573xvxxrkf-j3qxfz01b7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001029866117"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "970"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xhfFNP/oxASlY7m9peYUDB60O3TKPpSc4ro3622JrhE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 06:29:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Xx0in8BsomxQSSThJWW16XM6I4RMqwKUFVjDgAKy+no=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Xx0in8BsomxQSSThJWW16XM6I4RMqwKUFVjDgAKy+no="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/de5cf768-0e2b-4262-81a9-a98fee0d0d5c.svg",
+      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\de5cf768-0e2b-4262-81a9-a98fee0d0d5c.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2061"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Xx0in8BsomxQSSThJWW16XM6I4RMqwKUFVjDgAKy+no=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 06:29:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Xx0in8BsomxQSSThJWW16XM6I4RMqwKUFVjDgAKy+no="
+        }
+      ]
+    },
+    {
+      "Route": "images/projects/de5cf768-0e2b-4262-81a9-a98fee0d0d5c.svg.gz",
+      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\573xvxxrkf-j3qxfz01b7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "970"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xhfFNP/oxASlY7m9peYUDB60O3TKPpSc4ro3622JrhE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 06:29:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xhfFNP/oxASlY7m9peYUDB60O3TKPpSc4ro3622JrhE="
+        }
+      ]
+    },
+    {
       "Route": "images/projects/project-template-green.j3qxfz01b7.svg",
       "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\1vofigym9g-j3qxfz01b7.gz",
       "Selectors": [
@@ -4729,304 +6387,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-xhfFNP/oxASlY7m9peYUDB60O3TKPpSc4ro3622JrhE="
-        }
-      ]
-    },
-    {
-      "Route": "images/projects/project-template-mixed.f0i9ua2ypr.svg",
-      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\pwee23np0h-f0i9ua2ypr.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001023541453"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "976"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"SBpFQ9EXuS+rozfMQyLVKtvngLUOCXD0XmqI3AB2A4k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 12:27:53 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/svg+xml"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"kVaWpAKU/hKr0dyfERyt5ITCnaZ5XUMCOaf+yvT1YQo=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "f0i9ua2ypr"
-        },
-        {
-          "Name": "label",
-          "Value": "images/projects/project-template-mixed.svg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-kVaWpAKU/hKr0dyfERyt5ITCnaZ5XUMCOaf+yvT1YQo="
-        }
-      ]
-    },
-    {
-      "Route": "images/projects/project-template-mixed.f0i9ua2ypr.svg",
-      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\project-template-mixed.svg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2148"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/svg+xml"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"kVaWpAKU/hKr0dyfERyt5ITCnaZ5XUMCOaf+yvT1YQo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 12:27:53 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "f0i9ua2ypr"
-        },
-        {
-          "Name": "label",
-          "Value": "images/projects/project-template-mixed.svg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-kVaWpAKU/hKr0dyfERyt5ITCnaZ5XUMCOaf+yvT1YQo="
-        }
-      ]
-    },
-    {
-      "Route": "images/projects/project-template-mixed.f0i9ua2ypr.svg.gz",
-      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\pwee23np0h-f0i9ua2ypr.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "976"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/svg+xml"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"SBpFQ9EXuS+rozfMQyLVKtvngLUOCXD0XmqI3AB2A4k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 12:27:53 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "f0i9ua2ypr"
-        },
-        {
-          "Name": "label",
-          "Value": "images/projects/project-template-mixed.svg.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-SBpFQ9EXuS+rozfMQyLVKtvngLUOCXD0XmqI3AB2A4k="
-        }
-      ]
-    },
-    {
-      "Route": "images/projects/project-template-mixed.svg",
-      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\pwee23np0h-f0i9ua2ypr.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001023541453"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "976"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"SBpFQ9EXuS+rozfMQyLVKtvngLUOCXD0XmqI3AB2A4k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 12:27:53 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/svg+xml"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"kVaWpAKU/hKr0dyfERyt5ITCnaZ5XUMCOaf+yvT1YQo=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-kVaWpAKU/hKr0dyfERyt5ITCnaZ5XUMCOaf+yvT1YQo="
-        }
-      ]
-    },
-    {
-      "Route": "images/projects/project-template-mixed.svg",
-      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\wwwroot\\images\\projects\\project-template-mixed.svg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2148"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/svg+xml"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"kVaWpAKU/hKr0dyfERyt5ITCnaZ5XUMCOaf+yvT1YQo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 12:27:53 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-kVaWpAKU/hKr0dyfERyt5ITCnaZ5XUMCOaf+yvT1YQo="
-        }
-      ]
-    },
-    {
-      "Route": "images/projects/project-template-mixed.svg.gz",
-      "AssetFile": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Presentation\\obj\\Debug\\net9.0\\compressed\\pwee23np0h-f0i9ua2ypr.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "976"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/svg+xml"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"SBpFQ9EXuS+rozfMQyLVKtvngLUOCXD0XmqI3AB2A4k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 12:27:53 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-SBpFQ9EXuS+rozfMQyLVKtvngLUOCXD0XmqI3AB2A4k="
         }
       ]
     },

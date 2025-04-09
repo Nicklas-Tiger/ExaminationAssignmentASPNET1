@@ -10,11 +10,13 @@ public interface IStatusService
     Task<StatusResult<Status>> GetStatusByIdAsync(int id);
     Task<StatusResult<Status>> GetStatusByNameAsync(string statusName);
     Task<StatusResult<IEnumerable<Status>>> GetStatusesAsync();
+
 }
 
-public class StatusService(IStatusRepository statusRepository) : IStatusService
+public class StatusService(IStatusRepository statusRepository, IUserRepository userRepository) : IStatusService
 {
     private readonly IStatusRepository _statusRepository = statusRepository;
+    private readonly IUserRepository _userRepository = userRepository;
 
     public async Task<StatusResult<IEnumerable<Status>>> GetStatusesAsync()
     {

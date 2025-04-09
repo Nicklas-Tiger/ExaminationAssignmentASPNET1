@@ -3,52 +3,57 @@
     ViewData["Title"] = "Projects";
 }
 
+@if (TempData["EditError"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["EditError"]
+    </div>
+}
+
 <partial name="Partials/Project/_AddProjectModal" model="Model.AddProjectViewModel" />
-<partial name="Partials/Project/_EditProjectModal" model="Model.EditProjectViewModel" />
 
 <section id="projects">
     <div class="section-header">
         <h1>@ViewData["Title"]</h1>
-        <button type="button" data-type="modal" data-target="#addProjectModal" class="btn btn-add"><span>Add Project</span></button>
+        <button type="button" data-type="modal" data-target="#addProjectModal" class="btn btn-add">
+            <span>Add Project</span>
+        </button>
     </div>
 
-
     <section class="project-list">
-        @foreach (var project in Model.Projects)
+        @foreach (var editModel in Model.EditProjectViewModel)
         {
             <div class="project card">
                 <div class="card-header">
-
                     <div class="project-image" style="grid-area: img;">
                         <img class="image"
-                             src="@Url.Content("~/images/projects/" + project.Image)"
-                             alt="@project.ProjectName" />
+                             src="@(Url.Content("~/images/projects/" + (string.IsNullOrEmpty(editModel.ImageUrl) ? "default.png" : editModel.ImageUrl)))"
+                             alt="@editModel.ProjectName" />
                     </div>
 
                     <h6 class="project-name" style="grid-area: name;">
-                        @project.ProjectName
+                        @editModel.ProjectName
                     </h6>
 
                     <div class="project-dropdown-container" style="grid-area: action;">
                         <button type="button"
                                 data-type="dropdown"
-                                data-target="#project-dropdown-@project.Id"
+                                data-target="#project-dropdown-@editModel.Id"
                                 class="btn-action">
                             <i class="fa-solid fa-ellipsis"></i>
                         </button>
 
-                        <div id="project-dropdown-@project.Id" class="dropdown project-dropdown">
+                        <div id="project-dropdown-@editModel.Id" class="dropdown project-dropdown">
                             <div class="dropdown-body">
                                 <nav class="dropdown-actions">
-                                    <a class="dropdown-action" href="#">
+                                    <a class="dropdown-action" data-type="modal" data-target="#editProjectModal-@editModel.Id" href="javascript:void(0)">
                                         <i class="fa-duotone fa-solid fa-pen-to-square"></i>
                                         <span>Edit</span>
                                     </a>
                                 </nav>
                                 <nav class="dropdown-actions">
                                     <a class="dropdown-action" href="#">
-                                        <i class="fa-duotone fa-solid fa-user-plus"
-                                           style="--fa-primary-opacity: 0.4; --fa-secondary-opacity: 1;"></i>
+                                        <i class="fa-duotone fa-solid fa-user-plus" style="--fa-primary-opacity: 0.4; --fa-secondary-opacity: 1;"></i>
                                         <span>Add Member</span>
                                     </a>
                                 </nav>
@@ -64,25 +69,33 @@
                     </div>
 
                     <span class="client-name" style="grid-area: client;">
-                        @project.Client.ClientName
+                        @(editModel.Clients?.FirstOrDefault(c => c.Value == editModel.ClientId)?.Text ?? "Ingen klient")
                     </span>
                 </div>
 
                 <div class="card-body">
-                    <p class="project-description">
-                        @project.Description
-                    </p>
+                    <span class="project-description">
+                        @Html.Raw(editModel.Description)
+                    </span>
                 </div>
 
                 <div class="card-footer">
+                    <div class="badge badge-danger">
+                        <i class="fa-duotone fa-solid fa-clock"></i>
+                        <span>1 week left</span>
+                    </div>
+                    <div class="members" style="grid-area: img">
+                        <div class="user-image">
+                            <img src="~/images/profiles/user-template-female-pink.svg" alt="template-user-picture" />
+                        </div>
+                        <div class="user-image">
+                            <img src="~/images/profiles/user-template-male-greenpink.svg" alt="template-user-picture" />
+                        </div>
+                    </div>
                 </div>
             </div>
-
+            <partial name="Partials/Project/_EditProjectModal" model="editModel" />
         }
     </section>
 </section>
-
-
-
-
 

@@ -192,8 +192,12 @@ C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Presentation
 C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Presentation\obj\Debug\net9.0\compressed\eup6vm9mmp-056f8csz8o.gz
 C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Presentation\obj\Debug\net9.0\compressed\9n806aqdd6-koqqii8vhf.gz
 C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Presentation\obj\Debug\net9.0\compressed\1vofigym9g-j3qxfz01b7.gz
-C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Presentation\obj\Debug\net9.0\compressed\pwee23np0h-f0i9ua2ypr.gz
 C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Presentation\obj\Debug\net9.0\compressed\x5dt1tnf79-koqqii8vhf.gz
 C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Presentation\obj\Debug\net9.0\compressed\09lvasykgm-056f8csz8o.gz
 C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Presentation\obj\Debug\net9.0\compressed\31mbogrn1w-koqqii8vhf.gz
-C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Presentation\obj\Debug\net9.0\compressed\8y2rqx5iwd-09pychdyzc.gz
+C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Presentation\obj\Debug\net9.0\compressed\38hhqhl3e1-koqqii8vhf.gz
+C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Presentation\obj\Debug\net9.0\compressed\573xvxxrkf-j3qxfz01b7.gz
+C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Presentation\obj\Debug\net9.0\compressed\jkuj83p9um-056f8csz8o.gz
+C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Presentation\obj\Debug\net9.0\compressed\t5rmyp9pm4-f0i9ua2ypr.gz
+C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Presentation\obj\Debug\net9.0\compressed\bwznkou2au-koqqii8vhf.gz
+C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Presentation\obj\Debug\net9.0\compressed\8y2rqx5iwd-sy05g8worc.gz

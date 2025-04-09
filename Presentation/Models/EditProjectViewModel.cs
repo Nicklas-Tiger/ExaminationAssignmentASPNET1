@@ -40,8 +40,12 @@ public class EditProjectViewModel
 
     [Required]
     [Display(Name = "Status", Prompt = "Select status")]
-    public int StatusId { get; set; } 
+    public int StatusId { get; set; }
+    [Required]
+    [Display(Name = "User", Prompt = "Select user")]
+    public string UserId { get; set; } = null!;
 
+    public IEnumerable<SelectListItem> Users { get; set; } = [];
     public IEnumerable<SelectListItem> Clients { get; set; } = [];
     public IEnumerable<SelectListItem> Statuses { get; set; } = [];
 }
