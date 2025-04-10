@@ -36,7 +36,7 @@ public class ProjectsController(IStatusService statusService, IClientService cli
             EndDate = p.EndDate,
             Budget = p.Budget,
             ImageUrl = p.Image,
-            ClientId = p.Client.Id, 
+            ClientId = p.Client.Id,
             StatusId = p.Status != null ? p.Status.Id : 0, 
             UserId = p.User.Id,
             Clients = clients,
@@ -49,6 +49,7 @@ public class ProjectsController(IStatusService statusService, IClientService cli
             Projects = projects,
             AddProjectViewModel = new AddProjectViewModel() { Clients = clients },
             EditProjectViewModel = editProjectViewModels
+
         };
 
         return View(vm);
@@ -174,29 +175,56 @@ public class ProjectsController(IStatusService statusService, IClientService cli
 
     #endregion
 
+    #region Delete
+    [HttpPost]
+    public async Task<IActionResult> Delete(string id)
+    {
+        if (string.IsNullOrEmpty(id))
+        {
+            TempData["ErrorMessage"] = "Ogiltigt projekt-id.";
+            return RedirectToAction("Index");
+        }
+
+        var result = await _projectService.DeleteProjectAsync(id);
+
+        if (result.Succeeded)
+        {
+
+            return RedirectToAction("Index");
+        }
+        else
+        {
+            TempData["ErrorMessage"] = result.Error;
+            return RedirectToAction("Index");
+        }
+    }
+
+    #endregion
+
+
     #region Helpers
 
     private async Task<IEnumerable<SelectListItem>> GetClientsSelectListAsync()
     {
         var result = await _clientService.GetClientsAsync();
-        var statusList = result.Result?.Select(s => new SelectListItem
+        var clientList = result.Result?.Select(s => new SelectListItem
         {
             Value = s.Id,
             Text = s.ClientName,
         });
 
-        return statusList!;
+        return clientList!;
     }
 
     private async Task<IEnumerable<SelectListItem>> GetUsersSelectListAsync()
     {
         var result = await _userService.GetUsersAsync();
-        var statusList = result.Result?.Select(s => new SelectListItem
+        var usersList = result.Result?.Select(s => new SelectListItem
         {
             Value = s.Id,
             Text = $"{s.FirstName} {s.LastName}",
         });
-        return statusList!;
+        return usersList!;
     }
 
     private async Task<IEnumerable<SelectListItem>> GetStatusesSelectListAsync()

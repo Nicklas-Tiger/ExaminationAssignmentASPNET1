@@ -100,28 +100,6 @@ public abstract class BaseRepository<TEntity, T> : IBaseRepository<TEntity, T> w
         };
     }
 
-    //public virtual async Task<RepositoryResult<IEnumerable<TSelect>>> GetAllAsync<TSelect>(Expression<Func<TEntity, TSelect>> selector, bool orderByDescending = false, Expression<Func<TEntity, object>>? sortBy = null, Expression<Func<TEntity, bool>>? where = null, params Expression<Func<TEntity, object>>[] includes)
-    //{
-    //    IQueryable<TEntity> query = _table;
-
-    //    if (where != null)
-    //        query = query.Where(where);
-
-    //    if (includes != null && includes.Length != 0)
-    //        foreach (var include in includes)
-    //            query = query.Include(include);
-
-    //    if (sortBy != null)
-    //        query = orderByDescending
-    //            ? query.OrderByDescending(sortBy)
-    //            : query.OrderBy(sortBy);
-
-    //    var entities = await query.Select(selector).ToListAsync();
-
-    //    var result = entities.Select(entity => entity!.MapTo<TSelect>());
-    //    return new RepositoryResult<IEnumerable<TSelect>> { Succeeded = true, StatusCode = 200, Result = result };
-    //}
-
     public virtual async Task<RepositoryResult<T>> GetAsync(Expression<Func<TEntity, bool>> where = null!, params Expression<Func<TEntity, object>>[] includes)
     {
         IQueryable<TEntity> query = _table;

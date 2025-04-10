@@ -2,7 +2,7 @@
 using Domain.Models;
 
 /*
-Denna kod är helt framtagen med hjälp av chatgpt för att lösa problemet jag hade att få ut ClientName på projektkorten.
+Denna kod är framtagen med hjälp av chatgpt för att lösa problemet jag hade att få ut ClientName på projektkorten.
 Den behövdes för att mitt tidigare sätt var att ladda med hjälp av Tselect och då fick jag inte med ClientName.
 Detta orsakade NullReferenceException i vyn eftersom .Client blev null trots att ClientId fanns i databasen.
 Denna lösning är ett resultat av breakpoints som du föreslog, då jag kunde förstå att jag faktiskt får in allt jag behöver men det kommer bara inte ut i gränssnittet, och ChatGPT som hjälp.
@@ -51,10 +51,14 @@ namespace Business.Mapping
                     Id = entity.User.Id,
                     FirstName = entity.User.FirstName,
                     LastName = entity.User.LastName,
+                    JobTitle = entity.User.JobTitle,
+                    Email = entity.User.Email!,
+                    PhoneNumber = entity.User.PhoneNumber,
+                    Image = entity.User.Image,
+
                 }
 
             };
-
             return project;
         }
 
@@ -69,6 +73,7 @@ namespace Business.Mapping
                 ClientName = client.ClientName
             };
         }
+
     }
 
 

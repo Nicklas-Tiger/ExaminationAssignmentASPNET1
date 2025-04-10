@@ -89,7 +89,7 @@ public class ProjectService(IProjectRepository projectRepository, IStatusService
             };
         }
 
-        var projectsDomain = response.Result!.ToDomain(); // extension-metod du redan har
+        var projectsDomain = response.Result!.ToDomain();
 
         return new ProjectResult<IEnumerable<Project>>
         {
@@ -143,7 +143,6 @@ public class ProjectService(IProjectRepository projectRepository, IStatusService
         if (projectEntity == null)
             return new ProjectResult { Succeeded = false, StatusCode = 404, Error = "Project not found." };
 
-        // Uppdatera egenskaper
         projectEntity.ProjectName = formData.ProjectName;
         projectEntity.Description = formData.Description;
         projectEntity.StatusId = formData.StatusId;

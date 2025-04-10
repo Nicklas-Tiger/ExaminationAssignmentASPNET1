@@ -28,7 +28,7 @@
                     <div class="project-image" style="grid-area: img;">
                         <img class="image"
                              src="@(Url.Content("~/images/projects/" + (string.IsNullOrEmpty(editModel.ImageUrl) ? "default.png" : editModel.ImageUrl)))"
-                             alt="@editModel.ProjectName" />
+                             alt="Project Image" />
                     </div>
 
                     <h6 class="project-name" style="grid-area: name;">
@@ -59,7 +59,7 @@
                                 </nav>
                                 <div class="divider"></div>
                                 <nav class="dropdown-actions">
-                                    <a class="dropdown-action dropdown-delete" href="#">
+                                    <a class="dropdown-action dropdown-delete" data-project-id="@editModel.Id" href="javascript:void(0)">
                                         <i class="fa-duotone fa-solid fa-trash"></i>
                                         <span>Delete Project</span>
                                     </a>
@@ -87,9 +87,6 @@
                     <div class="members" style="grid-area: img">
                         <div class="user-image">
                             <img src="~/images/profiles/user-template-female-pink.svg" alt="template-user-picture" />
-                        </div>
-                        <div class="user-image">
-                            <img src="~/images/profiles/user-template-male-greenpink.svg" alt="template-user-picture" />
                         </div>
                     </div>
                 </div>

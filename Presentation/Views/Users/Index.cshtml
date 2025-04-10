@@ -1,0 +1,96 @@
+﻿@model UsersViewModel
+@{
+    ViewData["Title"] = "Team Members";
+}
+
+@if (TempData["EditError"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["EditError"]
+    </div>
+}
+
+<partial name="Partials/Members/_AddUserModal" model="new Presentation.Models.AddUserViewModel()" />
+
+<section id="users">
+    <div class="section-header">
+        <h1>@ViewData["Title"]</h1>
+        <button type="button" data-type="modal" data-target="#addUserModal" class="btn btn-add">
+            <span>Add User</span>
+        </button>
+    </div>
+
+    <section class="user-list">
+        @foreach (var userModel in Model.Users)
+        {
+            <div class="user card">
+                <div class="card-header">
+                    <div class="user-image" style="grid-area: img;">
+                        <img class="image"
+                             src="@(Url.Content("~/images/projects/" + (string.IsNullOrEmpty(userModel.Image) ? "default.png" : userModel.Image)))"
+                             alt="User Image" />
+                    </div>
+
+                    <h6 class="user-name" style="grid-area: name;">
+                        @userModel.FirstName @userModel.LastName
+                    </h6>
+
+                    <div class="user-dropdown-container" style="grid-area: action;">
+                        <button type="button"
+                                data-type="dropdown"
+                                data-target="#user-dropdown-@userModel.Id"
+                                class="btn-action">
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </button>
+
+                        <div id="user-dropdown-@userModel.Id" class="dropdown user-dropdown">
+                            <div class="dropdown-body">
+                                <nav class="dropdown-actions">
+                                    <a class="dropdown-action" data-type="modal" data-target="#addUserModal-@userModel.Id" href="javascript:void(0)">
+                                        <i class="fa-duotone fa-solid fa-pen-to-square"></i>
+                                        <span>Edit</span>
+                                    </a>
+                                </nav>
+                                <nav class="dropdown-actions">
+                                    <a class="dropdown-action" href="#">
+                                        <i class="fa-duotone fa-solid fa-user-plus" style="--fa-primary-opacity: 0.4; --fa-secondary-opacity: 1;"></i>
+                                        <span>Add Member</span>
+                                    </a>
+                                </nav>
+                                <div class="divider"></div>
+                                <nav class="dropdown-actions">
+                                    <a class="dropdown-action dropdown-delete" data-project-id="@userModel.Id" href="javascript:void(0)">
+                                        <i class="fa-duotone fa-solid fa-trash"></i>
+                                        <span>Delete Project</span>
+                                    </a>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+
+                <div class="card-body">
+
+                        <span class="user-role" style="grid-area: user;">
+                            @(userModel.JobTitle)
+                        </span>
+                        <span class="user-phonenumber">
+                            @(userModel.PhoneNumber)
+                        </span>
+                    </div>
+
+
+
+                </div>
+
+                <div class="card-footer">
+                    <div class="message-box" style="grid-area: message">
+                        <span>Message</span>
+                    </div>
+                </div>
+            </div>
+
+            <partial name="Partials/Members/_EditUserModal" model="userModel" />
+        }
+    </section>
+</section>
+
