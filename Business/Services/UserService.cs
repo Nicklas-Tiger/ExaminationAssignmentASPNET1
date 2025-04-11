@@ -17,7 +17,7 @@ public interface IUserService
     Task<string> GetDisplayName(string userId);
     Task<UserResult<User>> GetUserByIdAsync(string id);
     Task<UserResult> UserExistsByEmailAsync(string email);
-    Task<UserResult> CreateUserAsync(AddUserFormData formData);
+    Task<UserResult<string>> CreateUserAsync(AddUserFormData formData);
     Task<UserResult> UpdateUserAsync(EditUserFormData formData);
 }
 
@@ -27,21 +27,44 @@ public class UserService(IUserRepository userRepository, UserManager<UserEntity>
     private readonly UserManager<UserEntity> _userManager = userManager;
     private readonly RoleManager<IdentityRole> _roleManager = roleManager;
 
-    public async Task<UserResult> CreateUserAsync(AddUserFormData formData)
+    public async Task<UserResult<string>> CreateUserAsync(AddUserFormData formData)
     {
         var user = new UserEntity
-        {
+        {   
             FirstName = formData.FirstName,
             LastName = formData.LastName,
             Email = formData.Email,
             UserName = formData.Email,
-            Image = formData.Image
+            PhoneNumber = formData.PhoneNumber,
+            JobTitle = formData.JobTitle,
         };
+
+        if (formData.Image != null && formData.Image.Length > 0)
+        {
+            var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/profiles");
+
+            if (!Directory.Exists(uploadsFolder))
+                Directory.CreateDirectory(uploadsFolder);
+
+            var uniqueFileName = Guid.NewGuid().ToString() + Path.GetExtension(formData.Image.FileName);
+            var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                await formData.Image.CopyToAsync(stream);
+            }
+
+            user.Image = uniqueFileName;
+        }
+
         var result = await _userManager.CreateAsync(user);
+
         if (result.Succeeded)
-            return new UserResult { Succeeded = true, StatusCode = 200 };
-        return new UserResult { Succeeded = false, StatusCode = 500, Error = "Unable to create user." };
+            return new UserResult<string> { Succeeded = true, StatusCode = 200, Result = user.Image};
+
+        return new UserResult<string> { Succeeded = false, StatusCode = 500, Error = "Unable to create user." };
     }
+
 
     public async Task<UserResult> UpdateUserAsync(EditUserFormData formData)
     {
@@ -60,7 +83,6 @@ public class UserService(IUserRepository userRepository, UserManager<UserEntity>
         if (userEntity == null)
             return new UserResult { Succeeded = false, StatusCode = 404, Error = "Användaren hittades inte." };
 
-        // Uppdatera entiteten med värden från formData
         userEntity.FirstName = formData.FirstName;
         userEntity.LastName = formData.LastName;
         userEntity.Email = formData.Email;

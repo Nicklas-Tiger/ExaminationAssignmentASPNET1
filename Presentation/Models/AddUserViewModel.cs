@@ -4,6 +4,9 @@ namespace Presentation.Models;
 
 public class AddUserViewModel
 {
+    [DataType(DataType.Upload)]
+    [Display(Name = "User Image", Prompt = "Select user image")]
+    public IFormFile? Image { get; set; }
     [Required(ErrorMessage = "This field is required.")]
     [DataType(DataType.Text)]
     [Display(Name = "First Name", Prompt = "Enter first name")]
@@ -30,11 +33,10 @@ public class AddUserViewModel
     [Display(Name = "Address", Prompt = "Enter address")]
     public string? Address { get; set; }
 
-    [DataType(DataType.Date)]
-    [Display(Name = "Date of Birth")]
-    public DateTime BirthDate { get; set; }
+    //[DataType(DataType.Date)]
+    //[Display(Name = "Date of Birth")]
+    //public DateTime? BirthDate { get; set; }
 
-    public IEnumerable<UsersViewModel> TeamMembers { get; set; } = null!;
 
 
 }

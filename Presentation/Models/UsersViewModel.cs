@@ -8,4 +8,5 @@ public class UsersViewModel
     public IEnumerable<UserViewModel> Users { get; set; } = null!;
     public AddUserViewModel AddUser { get; set; } = new AddUserViewModel();
     public List<EditUserViewModel> TeamMembers { get; set; } = null!;
+    public EditUserViewModel EditUser { get; set; } = new EditUserViewModel();
 }

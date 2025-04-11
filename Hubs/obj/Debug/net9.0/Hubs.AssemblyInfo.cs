@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Hubs")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+89600ebb57d7fd38d62269b9fd9816adb0f97624")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f15a37fb4c8d8cea3fde46681ada1be1b9e74dae")]
 [assembly: System.Reflection.AssemblyProductAttribute("Hubs")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Hubs")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

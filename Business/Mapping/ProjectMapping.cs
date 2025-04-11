@@ -27,7 +27,6 @@ namespace Business.Mapping
                 EndDate = entity.EndDate,
                 Budget = entity.Budget,
 
-
                 Client = entity.Client == null
                 ? new Client { ClientName = "No client" }
                 : new Client

@@ -4229,23 +4229,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Nicklas Tiger\\.nuget\\packages\\": {},
+    "C:\\Users\\nickl\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Business\\Business.csproj",
+      "projectUniqueName": "C:\\Projects\\ExamASPNET\\Business\\Business.csproj",
       "projectName": "Business",
-      "projectPath": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Business\\Business.csproj",
-      "packagesPath": "C:\\Users\\Nicklas Tiger\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Business\\obj\\",
+      "projectPath": "C:\\Projects\\ExamASPNET\\Business\\Business.csproj",
+      "packagesPath": "C:\\Users\\nickl\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\ExamASPNET\\Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Nicklas Tiger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nickl\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4261,14 +4261,14 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Data\\Data.csproj": {
-              "projectPath": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Data\\Data.csproj"
+            "C:\\Projects\\ExamASPNET\\Data\\Data.csproj": {
+              "projectPath": "C:\\Projects\\ExamASPNET\\Data\\Data.csproj"
             },
-            "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Domain\\Domain.csproj"
+            "C:\\Projects\\ExamASPNET\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Projects\\ExamASPNET\\Domain\\Domain.csproj"
             },
-            "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Hubs\\Hubs.csproj": {
-              "projectPath": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Hubs\\Hubs.csproj"
+            "C:\\Projects\\ExamASPNET\\Hubs\\Hubs.csproj": {
+              "projectPath": "C:\\Projects\\ExamASPNET\\Hubs\\Hubs.csproj"
             }
           }
         }

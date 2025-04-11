@@ -3,10 +3,10 @@
     ViewData["Title"] = "Team Members";
 }
 
-@if (TempData["EditError"] != null)
+@if (TempData["AddError"] != null)
 {
     <div class="alert alert-danger">
-        @TempData["EditError"]
+        @TempData["AddError"]
     </div>
 }
 
@@ -16,7 +16,7 @@
     <div class="section-header">
         <h1>@ViewData["Title"]</h1>
         <button type="button" data-type="modal" data-target="#addUserModal" class="btn btn-add">
-            <span>Add User</span>
+            <span>Add Member</span>
         </button>
     </div>
 
@@ -25,17 +25,12 @@
         {
             <div class="user card">
                 <div class="card-header">
-                    <div class="user-image" style="grid-area: img;">
+                    <div class="user-image">
                         <img class="image"
-                             src="@(Url.Content("~/images/projects/" + (string.IsNullOrEmpty(userModel.Image) ? "default.png" : userModel.Image)))"
+                             src="@(Url.Content("~/images/profiles/" + (string.IsNullOrEmpty(userModel.Image) ? "default.png" : userModel.Image)))"
                              alt="User Image" />
                     </div>
-
-                    <h6 class="user-name" style="grid-area: name;">
-                        @userModel.FirstName @userModel.LastName
-                    </h6>
-
-                    <div class="user-dropdown-container" style="grid-area: action;">
+                    <div class="user-dropdown-container">
                         <button type="button"
                                 data-type="dropdown"
                                 data-target="#user-dropdown-@userModel.Id"
@@ -61,35 +56,28 @@
                                 <nav class="dropdown-actions">
                                     <a class="dropdown-action dropdown-delete" data-project-id="@userModel.Id" href="javascript:void(0)">
                                         <i class="fa-duotone fa-solid fa-trash"></i>
-                                        <span>Delete Project</span>
+                                        <span>Delete Member</span>
                                     </a>
                                 </nav>
                             </div>
                         </div>
                     </div>
+                </div>
+                <h6 class="user-name">@userModel.FirstName @userModel.LastName</h6>
+
+                <div class="user-role">@userModel.JobTitle</div>
 
                 <div class="card-body">
-
-                        <span class="user-role" style="grid-area: user;">
-                            @(userModel.JobTitle)
-                        </span>
-                        <span class="user-phonenumber">
-                            @(userModel.PhoneNumber)
-                        </span>
-                    </div>
-
-
-
+                    <div><i class="fa-duotone fa-envelope"></i>  @userModel.Email</div>
+                    <div><i class="fa-duotone fa-phone"></i>  @userModel.PhoneNumber</div>
                 </div>
 
                 <div class="card-footer">
-                    <div class="message-box" style="grid-area: message">
-                        <span>Message</span>
-                    </div>
+                    <div class="message-box">Message</div>
                 </div>
             </div>
 
-            <partial name="Partials/Members/_EditUserModal" model="userModel" />
+            <partial name="Partials/Members/_EditUserModal" model="Model.EditUser" />
         }
     </section>
 </section>

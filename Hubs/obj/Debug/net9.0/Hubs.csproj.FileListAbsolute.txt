@@ -11,3 +11,16 @@ C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Hubs\obj\Deb
 C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Hubs\obj\Debug\net9.0\refint\Hubs.dll
 C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Hubs\obj\Debug\net9.0\Hubs.pdb
 C:\Projects\AspNetExaminationAssignment\AspNetExaminationAssignment\Hubs\obj\Debug\net9.0\ref\Hubs.dll
+C:\Projects\ExamASPNET\Hubs\bin\Debug\net9.0\Hubs.deps.json
+C:\Projects\ExamASPNET\Hubs\bin\Debug\net9.0\Hubs.dll
+C:\Projects\ExamASPNET\Hubs\bin\Debug\net9.0\Hubs.pdb
+C:\Projects\ExamASPNET\Hubs\obj\Debug\net9.0\Hubs.csproj.AssemblyReference.cache
+C:\Projects\ExamASPNET\Hubs\obj\Debug\net9.0\Hubs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\ExamASPNET\Hubs\obj\Debug\net9.0\Hubs.AssemblyInfoInputs.cache
+C:\Projects\ExamASPNET\Hubs\obj\Debug\net9.0\Hubs.AssemblyInfo.cs
+C:\Projects\ExamASPNET\Hubs\obj\Debug\net9.0\Hubs.csproj.CoreCompileInputs.cache
+C:\Projects\ExamASPNET\Hubs\obj\Debug\net9.0\Hubs.sourcelink.json
+C:\Projects\ExamASPNET\Hubs\obj\Debug\net9.0\Hubs.dll
+C:\Projects\ExamASPNET\Hubs\obj\Debug\net9.0\refint\Hubs.dll
+C:\Projects\ExamASPNET\Hubs\obj\Debug\net9.0\Hubs.pdb
+C:\Projects\ExamASPNET\Hubs\obj\Debug\net9.0\ref\Hubs.dll

@@ -1,5 +1,6 @@
 ﻿using Business.Services;
 using Data.Contexts;
+using Domain.Extensions;
 using Domain.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -11,10 +12,11 @@ using System.Threading.Tasks;
 namespace Presentation.Controllers;
 
 [Authorize]
-public class UsersController(IUserService userService, DataContext context) : Controller
+public class UsersController(IUserService userService, DataContext context, INotificationService notificationService) : Controller
 {
     private readonly IUserService _userService = userService;
     private readonly DataContext _context = context;
+    private readonly INotificationService _notificationService = notificationService;
 
     [Route("admin/members")]
     public async Task<IActionResult> Index()
@@ -39,7 +41,6 @@ public class UsersController(IUserService userService, DataContext context) : Co
                 Image = u.Image!,
                 JobTitle = u.JobTitle!,
                 PhoneNumber = u.PhoneNumber!
-                // Lägg till övriga egenskaper om det behövs
             }).ToList()
         };
 
@@ -47,28 +48,40 @@ public class UsersController(IUserService userService, DataContext context) : Co
     }
 
     [HttpGet]
+    public async Task<IActionResult> Add()
+    {
+        return View();
+    }
+
+    [HttpPost]
     public async Task<IActionResult> Add(AddUserViewModel model)
     {
-        if (ModelState.IsValid)
-            return View(model);
-        var formData = new AddUserFormData
+        if (!ModelState.IsValid)
         {
-            FirstName = model.FirstName,
-            LastName = model.LastName,
-            Email = model.Email,
-            // Lägg gärna till övriga egenskaper som behövs (t.ex. lösenord eller imageUrl) 
-        };
+            TempData["AddError"] = "Invalid input. Please check the form and try again.";
+            return RedirectToAction("Index");
+        }
 
-        // Skapa användaren via din userService
+        var formData = model.MapTo<AddUserFormData>();
         var result = await _userService.CreateUserAsync(formData);
 
         if (result.Succeeded)
-            return RedirectToAction("Index");
-        else
         {
-            ModelState.AddModelError(string.Empty, result.Error!);
-            return View(model);
+            var notificationFormData = new NotificationFormData
+            {
+                NotificationTypeId = 1,
+                NotificationTargetId = 1,
+                Message = $"{formData.FirstName} has been added as a member.",
+                Image = result.Result
+            };
+
+            await _notificationService.AddNotificationAsync(notificationFormData);
+            return RedirectToAction("Index");
         }
+
+
+        TempData["AddError"] = result.Error!;
+        return RedirectToAction("Index");
     }
 
     //[HttpGet]
@@ -94,7 +107,6 @@ public class UsersController(IUserService userService, DataContext context) : Co
     //    return View(vm);
     //}
 
-    // POST: Ta emot ändringar och uppdatera användaren
     [HttpPost]
     public async Task<IActionResult> Edit(EditUserViewModel model)
     {
@@ -107,7 +119,7 @@ public class UsersController(IUserService userService, DataContext context) : Co
             FirstName = model.FirstName,
             LastName = model.LastName,
             Email = model.Email,
-            // Mappa övriga egenskaper om det behövs
+
         };
 
         var result = await _userService.UpdateUserAsync(formData);

@@ -34,14 +34,6 @@ public class EditUserViewModel
     public string Email { get; set; } = null!;
 
     [DataType(DataType.Text)]
-    [Display(Name = "Street name", Prompt = "Enter street name")]
-    public string? Streetname { get; set; }
-
-    [DataType(DataType.Text)]
-    [Display(Name = "Postal code", Prompt = "Enter postal code")]
-    public string? PostalCode { get; set; }
-
-    [DataType(DataType.Text)]
-    [Display(Name = "City", Prompt = "Enter city")]
-    public string? City { get; set; }
+    [Display(Name = "Address", Prompt = "Enter address")]
+    public string? Address { get; set; }
 }

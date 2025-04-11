@@ -10,12 +10,13 @@ using System.Security.Claims;
 namespace Presentation.Controllers;
 
 [Authorize]
-public class ProjectsController(IStatusService statusService, IClientService clientService, IProjectService projectService, IUserService userService) : Controller
+public class ProjectsController(IStatusService statusService, IClientService clientService, IProjectService projectService, IUserService userService, INotificationService notificationService) : Controller
 {
     private readonly IStatusService _statusService = statusService;
     private readonly IClientService _clientService = clientService;
     private readonly IProjectService _projectService = projectService;
     private readonly IUserService _userService = userService;
+    private readonly INotificationService _notificationService = notificationService;
 
     #region List
 
@@ -37,7 +38,7 @@ public class ProjectsController(IStatusService statusService, IClientService cli
             Budget = p.Budget,
             ImageUrl = p.Image,
             ClientId = p.Client.Id,
-            StatusId = p.Status != null ? p.Status.Id : 0, 
+            StatusId = p.Status != null ? p.Status.Id : 0,
             UserId = p.User.Id,
             Clients = clients,
             Statuses = statuses,
@@ -84,8 +85,19 @@ public class ProjectsController(IStatusService statusService, IClientService cli
 
         var result = await _projectService.CreateProjectAsync(formData);
 
+
         if (result.Succeeded)
         {
+            var notificationFormData = new NotificationFormData
+            {
+                NotificationTypeId = 2,
+                NotificationTargetId = 1,
+                Message = $"Project '{formData.ProjectName}' has been added.",
+                Image = result.Result,
+            };
+
+            await _notificationService.AddNotificationAsync(notificationFormData);
+
             return RedirectToAction("Index", "Projects");
         }
         else
@@ -132,7 +144,6 @@ public class ProjectsController(IStatusService statusService, IClientService cli
     {
         if (!ModelState.IsValid)
         {
-            Debug.WriteLine("❌ ModelState ogiltigt. Fel:");
             foreach (var state in ModelState)
             {
                 foreach (var error in state.Value.Errors)

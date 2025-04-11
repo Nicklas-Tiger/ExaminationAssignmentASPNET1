@@ -6084,23 +6084,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Nicklas Tiger\\.nuget\\packages\\": {},
+    "C:\\Users\\nickl\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Data\\Data.csproj",
+      "projectUniqueName": "C:\\Projects\\ExamASPNET\\Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Data\\Data.csproj",
-      "packagesPath": "C:\\Users\\Nicklas Tiger\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Data\\obj\\",
+      "projectPath": "C:\\Projects\\ExamASPNET\\Data\\Data.csproj",
+      "packagesPath": "C:\\Users\\nickl\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\ExamASPNET\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Nicklas Tiger\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nickl\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -6116,8 +6116,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Projects\\AspNetExaminationAssignment\\AspNetExaminationAssignment\\Domain\\Domain.csproj"
+            "C:\\Projects\\ExamASPNET\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Projects\\ExamASPNET\\Domain\\Domain.csproj"
             }
           }
         }

@@ -1,5 +1,61 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model AddUserViewModel
+
+<div id="addUserModal" class="modal">
+    <div class="card">
+        <div class="card-header">
+            <h3>Add Member</h3>
+            <button type="button" class="btn-close" data-type="close" data-close="true" data-target="#addUserModal"></button>
+        </div>
+    <div class="card-body">
+        <form asp-controller="Users" asp-action="Add" method="post" enctype="multipart/form-data" novalidate>
+            <div class="form-group">
+                <div id="upload-trigger" class="image-preview-container user-image">
+                    <img id="image-preview" src="#" class="hide" />
+                    <div id="image-preview-icon-container" class="rectangle rectangle-gray">
+                        <i id="image-preview-icon" class="fa-duotone fa-solid fa-camera" style="--fa-primary-color: #bbb9b9; --fa-secondary-color: #ffffff; --fa-secondary-opacity: 1;"></i>
+                    </div>
+                </div>
+                <input asp-for="Image" type="file" id="image-upload" accept="image/*" class="hide" />
+            </div>
+            <div class="form-horizontal-group">
+            <div class="form-group">
+                <label asp-for="FirstName"></label>
+                <input asp-for="FirstName"/>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="LastName"></label>
+                <input asp-for="LastName"/>
+            </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email"></label>
+                <input asp-for="Email" />
+            </div>
+            <div class="form-group">
+                <label asp-for="PhoneNumber"></label>
+                <input asp-for="PhoneNumber" />
+            </div>
+            <div class="form-group">
+                <label asp-for="JobTitle"></label>
+                <input asp-for="JobTitle" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Address"></label>
+                <input asp-for="Address" />
+            </div>
+
+
+
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-submit">Add Member</button>
+            </div>
+
+        </form>
+    </div>
+    <div class="card-footer"></div>
+    </div>
+</div>
+
+

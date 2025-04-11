@@ -10,7 +10,7 @@ namespace Business.Services;
 
 public interface IProjectService
 {
-    Task<ProjectResult> CreateProjectAsync(AddProjectFormData formData);
+    Task<ProjectResult<string>> CreateProjectAsync(AddProjectFormData formData);
     Task<ProjectResult> DeleteProjectAsync(string id);
     Task<ProjectResult<Project>> GetProjectAsync(string id);
     Task<ProjectResult<IEnumerable<Project>>> GetProjectsAsync();
@@ -22,16 +22,16 @@ public class ProjectService(IProjectRepository projectRepository, IStatusService
     private readonly IProjectRepository _projectRepository = projectRepository;
     private readonly IStatusService _statusService = statusService;
 
-    public async Task<ProjectResult> CreateProjectAsync(AddProjectFormData formData)
+    public async Task<ProjectResult<string>> CreateProjectAsync(AddProjectFormData formData)
     {
 
         if (formData == null)
-            return new ProjectResult { Succeeded = false, StatusCode = 400, Error = "Not all required fields are supplied." };
+            return new ProjectResult<string> { Succeeded = false, StatusCode = 400, Error = "Not all required fields are supplied." };
 
         var projectEntity = formData.MapTo<ProjectEntity>();
 
         if (formData.Image != null && formData.Image.Length > 0)
-        {
+        {   
         
             var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/projects");
             if (!Directory.Exists(uploadsFolder))
@@ -49,10 +49,6 @@ public class ProjectService(IProjectRepository projectRepository, IStatusService
         else
             projectEntity.Image = null; 
 
-
-
-
-
         var statusResult = await _statusService.GetStatusByIdAsync(1);
         var status = statusResult.Result;
 
@@ -60,8 +56,8 @@ public class ProjectService(IProjectRepository projectRepository, IStatusService
 
         var result = await _projectRepository.AddAsync(projectEntity);
         return result.Succeeded
-            ? new ProjectResult { Succeeded = true, StatusCode = 201 }
-            : new ProjectResult { Succeeded = false, StatusCode = result.StatusCode, Error = result.Error };
+            ? new ProjectResult<string> { Succeeded = true, StatusCode = 201, Result = projectEntity.Image }
+            : new ProjectResult<string> { Succeeded = false, StatusCode = result.StatusCode, Error = result.Error };
 
     }
 
